@@ -13,23 +13,33 @@ public class HelperLogin extends HelperBase {
         click(By.xpath("//*[text()=' Log in ']"));
     }
 
-    public void fillLoginForm(String email, String password){
+    public void fillLoginForm(String email, String password) {
         type(By.cssSelector("div input#email"), email);
-        type(By.cssSelector("div input#password"),password);
+        type(By.cssSelector("div input#password"), password);
     }
 
-    public boolean loginSuccess(){
+    public boolean loginSuccess() {
         System.out.println(wd.findElement(By.xpath("//*[@class='cdk-overlay-pane']")).getText());
         String message = wd.findElement(By.xpath("//*[@class='cdk-overlay-pane']")).getText();
-        return message.contains("Logged in")&wd.findElements(By.xpath("//button[text()='Ok']")).size()>0;
+        return message.contains("Logged in") & wd.findElements(By.xpath("//button[text()='Ok']")).size() > 0;
 
     }
 
-    public void clickOkBtn(){
+    public boolean loginFail() {
+        System.out.println(wd.findElement(By.xpath("//*[@class='dialog-container']")).getText());
+        String message = wd.findElement(By.xpath("//*[@class='dialog-container']")).getText();
+        return message.contains("Authorization error");
+    }
+
+    public void clickOkBtn() {
         click(By.xpath("//button[text()='Ok']"));
     }
 
-    public void  chooseMostPopular(){
+    public void returnToMainPage() {
+        click(By.cssSelector("div.header img[alt='logo']"));
+    }
+
+    public void chooseMostPopular() {
 
         //click(By.xpath("//span[text()='25']/parent::*"));
         //click(By.xpath("//*[text()='25']"));
@@ -37,7 +47,7 @@ public class HelperLogin extends HelperBase {
 
     }
 
-    public void chooseDates(){
+    public void chooseDates() {
         click(By.cssSelector("input#dates"));
         click(By.xpath("//*[@aria-label='Choose month and year']"));
         click(By.xpath("//*[text()=' 2022 ']"));
