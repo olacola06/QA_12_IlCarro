@@ -1,12 +1,13 @@
 package tests;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Registration extends TestBase {
 
-    @BeforeTest
+    @BeforeMethod
     public void preCondition(){
         if (app.regist().loggedIn()){
             app.regist().logOut();
@@ -25,7 +26,7 @@ public class Registration extends TestBase {
         app.regist().clickSignUp();
         app.regist().fillRegistrationForm("Tom","Morgan",email,password);
         System.out.println("Email = "+email+", and password = "+password);
-        app.regist().markCheckBox();
+        app.regist().markCheckBoxXY();
         app.regist().submitYalla();
         System.out.println("Email = "+email+"password = "+password);
 

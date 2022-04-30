@@ -5,7 +5,7 @@ import manager.ApplicationManager;
 
 public class TestBase {
 
-    ApplicationManager app = new ApplicationManager();
+    protected static ApplicationManager app = new ApplicationManager();
 
     @BeforeSuite
     public void init(){
