@@ -31,10 +31,6 @@ public class HelperLogin extends HelperBase {
         return message.contains("Authorization error");
     }
 
-    public void clickOkBtn() {
-        click(By.xpath("//button[text()='Ok']"));
-    }
-
     public void returnToMainPage() {
         click(By.cssSelector("div.header img[alt='logo']"));
     }

@@ -12,5 +12,8 @@ public class CarSearch extends TestBase{
 //
 //    }
 
+//        app.login().clickOkBtn();
+//        app.login().chooseMostPopular();
+//        app.login().chooseDates();
 
 }

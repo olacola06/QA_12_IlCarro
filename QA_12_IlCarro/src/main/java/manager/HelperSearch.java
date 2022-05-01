@@ -17,4 +17,6 @@ public class HelperSearch extends HelperBase{
         click(By.xpath("//*[@aria-label='July 13, 2022']"));
         click(By.xpath("//*[@aria-label='July 16, 2022']"));
     }
+
+
 }

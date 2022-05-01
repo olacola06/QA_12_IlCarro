@@ -36,8 +36,25 @@ public class HelperRegistration extends HelperBase {
     }
 
     public boolean registrationSuccess(){
-        System.out.println(wd.findElement(By.xpath("//*[@id='mat-dialog-2']")).getText());
-        String message = wd.findElement(By.xpath("//*[@id='mat-dialog-2']")).getText();
+        System.out.println(wd.findElement(By.xpath("//*[@class='dialog-container']")).getText());
+        String message = wd.findElement(By.xpath("//*[@class='dialog-container']")).getText();
         return message.contains("Registered") & (wd.findElements(By.xpath("//*[text()='Ok']")).size()>0);
     }
+
+    public boolean registrationFailedMail(){
+        String message = wd.findElement(By.xpath("//*[text()='Wrong email format']")).getText();
+        return message.contains("Wrong email format");
+
+    }
+    public boolean registrationFailedPass(){
+        String message = wd.findElement(By.xpath("//*[text()='Password must contain 1 uppercase letter, 1 lowercase letter and one number ']")).getText();
+        return message.contains("Password must contain 1");
+
+    }
+
+    public boolean registrationFailedExist(){
+        String message = wd.findElement(By.xpath("//*[@class='dialog-container']")).getText();
+        return message.contains("Registration error");
+
+}
 }

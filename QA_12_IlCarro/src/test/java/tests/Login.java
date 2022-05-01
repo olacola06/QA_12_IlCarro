@@ -30,9 +30,6 @@ public class Login extends TestBase {
 
         Assert.assertTrue(app.login().loginSuccess());
 
-//        app.login().clickOkBtn();
-//        app.login().chooseMostPopular();
-//        app.login().chooseDates();
 
     }
     @Test
