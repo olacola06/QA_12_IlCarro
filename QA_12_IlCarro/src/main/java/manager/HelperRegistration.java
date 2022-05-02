@@ -23,7 +23,9 @@ public class HelperRegistration extends HelperBase {
 
     public void markCheckBox() {
         //click(By.xpath("//*[@id='terms-of-use']"));//Selenium doesn't see it
-        click(By.xpath("//*[@class='checkbox-label terms-label']"));
+        //click(By.xpath("//*[@class='checkbox-label terms-label']"));
+        click(By.css(label[for='terms-of-use']);
+
     }
 
     public boolean registrationSuccess(){
