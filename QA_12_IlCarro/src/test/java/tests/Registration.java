@@ -1,22 +1,21 @@
 package tests;
 
+import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class Registration extends TestBase {
-
-    int i = (int) (System.currentTimeMillis() / 1000) % 3600;
-    String email = "user" + i + "@gmail.com"; //test fails with first UpperCase letter (User)
-    String password = "Asd" + i + "d#%";
-
     @BeforeMethod
     public void preCondition() {
         if (app.regist().loggedIn()) {
             app.regist().logOut();
         }
-
     }
+
+    int i = (int) (System.currentTimeMillis() / 1000) % 3600;
+    String email = "user" + i + "@gmail.com"; //test fails with first UpperCase letter (User)
+    String password = "Asd" + i + "d#%";
 
 //    @AfterMethod
 //    public void postCondition() {
@@ -46,9 +45,11 @@ public class Registration extends TestBase {
 
     @Test
     public void registrationPositive2() {
+        User user = new User().withName("Tom").withLastName("Morgan")
+                .withEmail("user" + i + 1 + "@gmail.com").withPassword(password);
 
         app.regist().clickSignUp();
-        app.regist().fillRegistrationForm("Tom", "Morgan", "user"+i+1+"@gmail.com", password);
+        app.regist().fillRegistrationFormFS(user);
         System.out.println("Email = " + email + ", and password = " + password);
         app.regist().markCheckBoxXY();
         app.regist().submitYalla();
@@ -57,7 +58,6 @@ public class Registration extends TestBase {
         app.regist().clickOkBtn();
 
     }
-
     @Test
     public void registrationNegativeMail() {
         app.regist().clickSignUp();
@@ -80,8 +80,10 @@ public class Registration extends TestBase {
 
     @Test
     public void registrationNegativeExist() {
+        User user = new User().withName("Ann").withLastName("Barry")
+                .withEmail("user2900@gmail.com").withPassword("Asd" + i + "d#%");
         app.regist().clickSignUp();
-        app.regist().fillRegistrationForm("Ann", "Barry", "user2900@gmail.com", "Asd" + i + "d#%");
+        app.regist().fillRegistrationFormFS(user);
         app.regist().markCheckBoxXY();
         app.regist().submitYalla();
 

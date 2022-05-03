@@ -1,5 +1,6 @@
 package manager;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.WebDriver;
@@ -22,6 +23,12 @@ public class HelperRegistration extends HelperBase {
         type(By.xpath("//*[@id='lastName']"), lastName);
         type(By.cssSelector("div input#email"), email);
         type(By.cssSelector("div input#password"), password);
+    }
+    public void fillRegistrationFormFS(User user) {
+        type(By.xpath("//*[@id='name']"), user.name());
+        type(By.xpath("//*[@id='lastName']"), user.lastName());
+        type(By.cssSelector("div input#email"), user.email());
+        type(By.cssSelector("div input#password"), user.password());
     }
 
 //    public void markCheckBox() {
