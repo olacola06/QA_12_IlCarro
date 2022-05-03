@@ -12,14 +12,14 @@ public class LetTheCarWork extends TestBase {
     public void preCondition(){
         if(!app.login().loginSuccess()){
             app.login().clickLogin();
-            app.login().fillLoginForm("","");
+            app.login().fillLoginForm("user2900@gmail.com","As2900d#%");
             app.login().submitYalla();
         }
     }
 
-    Car car = Car.builder().location("").make("").model("").year("").engine("").fuel("").
-            gear("").wD("").doors("").seats("").clasS("").fuelConsumption("").registrationNum("").price("").distance("").
-            features("").about("").build();
+    Car car = Car.builder().location("Haifa").make("GErmany").model("BMW").year("2010").engine("1.6").fuel("").
+            gear("").wD("").doors("4").seats("5").clasS("A").fuelConsumption("10").registrationNum("1546852").
+            price("50").distance("500").features("").about("").build();
 
 
 
