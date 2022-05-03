@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">16.327s</div>
+<div class="counter">22.783s</div>
 <p>duration</p>
 </div>
 </td>
@@ -76,15 +76,15 @@
 <a name="registrationPositive"></a>
 <h3 class="failures">registrationPositive</h3>
 <span class="code">
-<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class='dialog-container']&quot;}
-  (Session info: chrome=101.0.4951.41)
+<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class='cdk-overlay-pane']&quot;}
+  (Session info: chrome=100.0.4896.127)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ARTEMKA', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.41, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 089dc932c5b7f302b3ac4c29e92a0bde
-*** Element info: {Using=xpath, value=//*[@class='dialog-container']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a12bd488e8a5fef340d6948b70e87ea
+*** Element info: {Using=xpath, value=//*[@class='cdk-overlay-pane']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -99,8 +99,8 @@ Session ID: 089dc932c5b7f302b3ac4c29e92a0bde
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at manager.HelperRegistration.registrationSuccess(HelperRegistration.java:39)
-	at tests.Registration.registrationPositive(Registration.java:41)
+	at manager.HelperRegistration.registrationSuccess(HelperRegistration.java:45)
+	at tests.Registration.registrationPositive(Registration.java:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -163,27 +163,27 @@ Session ID: 089dc932c5b7f302b3ac4c29e92a0bde
 </thead>
 <tr>
 <td class="success">registrationNegativeExist</td>
-<td class="success">1.542s</td>
+<td class="success">3.352s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">registrationNegativeMail</td>
-<td class="success">1.068s</td>
+<td class="success">2.313s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">registrationNegativePass</td>
-<td class="success">1.032s</td>
+<td class="success">2.000s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="failures">registrationPositive</td>
-<td class="failures">11.059s</td>
+<td class="failures">11.977s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="success">registrationPositive2</td>
-<td class="success">1.626s</td>
+<td class="success">3.141s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -191,11 +191,9 @@ Session ID: 089dc932c5b7f302b3ac4c29e92a0bde
 <div id="tab2" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>Email = user686@gmail.com, and password = Asd686d#%
-Email = user686@gmail.com, and password = Asd686d#%
-Registered
-You are logged in success
-Ok
+<pre>Email = user1528@gmail.com, and password = Asd1528d#%
+Email = user1528@gmail.com, and password = Asd1528d#%
+
 </pre>
 </span>
 </div>
@@ -207,7 +205,7 @@ Ok
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4</a> at 01.05.2022 18:12:50</p>
+<a href="http://www.gradle.org">Gradle 7.4</a> at 03.05.2022 9:27:15</p>
 </div>
 </div>
 </body>

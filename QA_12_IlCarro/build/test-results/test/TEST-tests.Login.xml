@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.Login" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-05-01T15:11:39" hostname="ARTEMKA" time="13.47">
+<testsuite name="tests.Login" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-05-03T06:25:52" hostname="DESKTOP-KF54E9L" time="19.135">
   <properties/>
-  <testcase name="loginNegativeEmail" classname="tests.Login" time="0.894"/>
-  <testcase name="loginPositive" classname="tests.Login" time="0.876"/>
-  <testcase name="loginPositive2" classname="tests.Login" time="0.928"/>
+  <testcase name="loginNegativeEmail" classname="tests.Login" time="2.547"/>
+  <testcase name="loginPositive" classname="tests.Login" time="1.962"/>
+  <testcase name="loginPositive2" classname="tests.Login" time="2.191"/>
   <system-out><![CDATA[Authorization error
 Wrong email or password
 Ok
