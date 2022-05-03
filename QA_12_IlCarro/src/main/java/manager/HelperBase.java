@@ -31,6 +31,9 @@ public class HelperBase {
     public boolean loggedIn(){
         return wd.findElements(By.xpath("//*[text()=' Logout ']")).size()>0;
     }
+    public void clickOkBtn() {
+        click(By.xpath("//button[text()='Ok']"));
+    }
 
     public void logOut(){
         click(By.xpath("//*[text()=' Logout ']"));
