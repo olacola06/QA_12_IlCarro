@@ -10,6 +10,7 @@ public class ApplicationManager {
     HelperRegistration regist;
     HelperLogin login;
     HelperSearch search;
+    HelperCar helperCar;
 
     public void setUp(){
         wd = new ChromeDriver();
@@ -19,6 +20,7 @@ public class ApplicationManager {
         regist = new HelperRegistration(wd);
         login = new HelperLogin(wd);
         search = new HelperSearch(wd);
+        helperCar = new HelperCar(wd);
     }
 
     public HelperRegistration regist(){
@@ -28,12 +30,15 @@ public class ApplicationManager {
     public HelperLogin login() {
         return login;
     }
-
-    public void stop(){
-        wd.quit();
+    public HelperCar helperCar(){
+        return helperCar;
     }
+
     public HelperSearch search(){
         return search;
+    }
+    public void stop(){
+        wd.quit();
     }
 
 }
