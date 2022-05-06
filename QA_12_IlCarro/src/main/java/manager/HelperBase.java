@@ -26,6 +26,7 @@ public class HelperBase {
 
     public void submitYalla(){
         click(By.cssSelector("form button[type='submit']"));
+
     }
 
     public boolean loggedIn(){
