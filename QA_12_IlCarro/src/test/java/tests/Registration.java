@@ -37,6 +37,7 @@ public class Registration extends TestBase {
         System.out.println("Email = " + email + ", and password = " + password);
         app.regist().markCheckBoxXY();
         app.regist().submitYalla();
+        app.regist().pause(5);
 
         Assert.assertTrue(app.regist().registrationSuccess());
         app.regist().clickOkBtn();
