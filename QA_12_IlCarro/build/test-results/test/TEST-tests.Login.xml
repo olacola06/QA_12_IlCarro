@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.Login" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-05-10T15:13:44" hostname="DESKTOP-KF54E9L" time="16.455">
+  <properties/>
+  <testcase name="loginNegativeEmail" classname="tests.Login" time="4.159"/>
+  <testcase name="loginPositive" classname="tests.Login" time="3.339"/>
+  <testcase name="loginPositive2" classname="tests.Login" time="3.266"/>
+  <system-out><![CDATA[Authorization error
+Wrong email or password
+Ok
+Logged in
+Logged in success
+Ok
+Logged in
+Logged in success
+Ok
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

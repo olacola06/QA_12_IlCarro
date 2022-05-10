@@ -26,6 +26,7 @@ public class HelperBase {
 
     public void submitYalla(){
         click(By.cssSelector("form button[type='submit']"));
+        pause();
 
     }
 
@@ -39,5 +40,13 @@ public class HelperBase {
     public void logOut(){
         click(By.xpath("//*[text()=' Logout ']"));
 
+    }
+
+    public void pause (){
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

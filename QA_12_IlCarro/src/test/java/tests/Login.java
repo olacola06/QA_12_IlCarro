@@ -15,12 +15,8 @@ public class Login extends TestBase {
     }
     @AfterMethod
     public void postCondition() {
-        if (app.login().loginFail()){
-            app.login().clickOkBtn();
-            app.login().returnToMainPage();
-        } else if (app.login().loginSuccess()) {
-            app.login().clickOkBtn();
-        }
+
+        app.login().clickOkBtn();
     }
     @Test
     public void loginPositive() {

@@ -37,14 +37,18 @@ public class HelperRegistration extends HelperBase {
 //        click(By.css(label[for='terms-of-use']);
 
     public void markCheckBoxXY() {
-        WebElement label = wd.findElement(By.xpath("//*[@class='checkbox-label terms-label']"));
-        Rectangle rect = label.getRect();
-        int XOffset = rect.getWidth()/2;
-        int YOffset = 0;
+       WebElement checkBox = wd.findElement(By.id("terms-of-use"));
 
-        Actions actions = new Actions(wd);
-        actions.moveToElement(label).moveByOffset(-XOffset,YOffset).click().release().perform();
+        if (!checkBox.isSelected()) {
 
+            WebElement label = wd.findElement(By.xpath("//*[@class='checkbox-label terms-label']"));
+            Rectangle rect = label.getRect();
+            int XOffset = rect.getWidth() / 2;
+            int YOffset = 0;
+
+            Actions actions = new Actions(wd);
+            actions.moveToElement(label).moveByOffset(-XOffset, YOffset).click().release().perform();
+        }
 
     }
 
@@ -70,14 +74,5 @@ public class HelperRegistration extends HelperBase {
         return message.contains("Registration error");
 
 }
-   public void pause(int millis){
-       try {
-           Thread.sleep(millis);
-       } catch (InterruptedException e) {
-           throw new RuntimeException(e);
-       }
-   }
-
-
 
 }
