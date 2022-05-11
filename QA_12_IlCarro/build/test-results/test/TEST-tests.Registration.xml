@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.Registration" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-05-10T15:14:01" hostname="DESKTOP-KF54E9L" time="35.531">
+<testsuite name="tests.Registration" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-10T15:32:22" hostname="DESKTOP-KF54E9L" time="5.295">
   <properties/>
-  <testcase name="registrationNegativeExist" classname="tests.Registration" time="4.482"/>
-  <testcase name="registrationNegativeMail" classname="tests.Registration" time="3.636"/>
-  <testcase name="registrationNegativePass" classname="tests.Registration" time="3.579"/>
-  <testcase name="registrationPositive" classname="tests.Registration" time="3.709"/>
-  <testcase name="registrationPositive2" classname="tests.Registration" time="4.624"/>
-  <system-out><![CDATA[Email = user808@gmail.com, and password = Asd808d#%
-Registered
-You are logged in success
-Ok
-Email = user808@gmail.com, and password = Asd808d#%
-Registered
-You are logged in success
-Ok
-]]></system-out>
+  <testcase name="registrationNegativeMail" classname="tests.Registration" time="5.295"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
