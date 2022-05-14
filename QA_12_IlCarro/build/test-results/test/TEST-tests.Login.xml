@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.Login" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-05-14T15:59:20" hostname="ARTEMKA" time="10.528">
+<testsuite name="tests.Login" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-05-14T16:16:45" hostname="ARTEMKA" time="10.601">
   <properties/>
-  <testcase name="loginNegativeEmail" classname="tests.Login" time="3.587"/>
-  <testcase name="loginPositive" classname="tests.Login" time="0.872"/>
-  <testcase name="loginPositive2" classname="tests.Login" time="0.929"/>
+  <testcase name="loginNegativeEmail" classname="tests.Login" time="3.522"/>
+  <testcase name="loginPositive" classname="tests.Login" time="0.81"/>
+  <testcase name="loginPositive2" classname="tests.Login" time="0.995"/>
   <system-out><![CDATA[Authorization error
 Wrong email or password
 Ok
-Logged in
-Logged in success
-Ok
+
 Logged in
 Logged in success
 Ok

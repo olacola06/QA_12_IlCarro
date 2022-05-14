@@ -26,14 +26,8 @@ public class Registration extends TestBase {
         System.out.println("Email = " + email + ", and password = " + password);
         app.regist().markCheckBoxXY();
         app.regist().submitYalla();
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
+
         //app.regist().pause(5);
->>>>>>> Stashed changes
-=======
-        //app.regist().pause(5);
->>>>>>> Stashed changes
 
         Assert.assertTrue(app.regist().registrationSuccess());
         app.regist().clickOkBtn();
@@ -64,6 +58,7 @@ public class Registration extends TestBase {
         app.regist().pause(3000);
 
         Assert.assertTrue(app.regist().registrationFailedMail());
+
     }
 
     @Test
@@ -75,6 +70,7 @@ public class Registration extends TestBase {
         app.regist().pause(3000);
 
         Assert.assertTrue(app.regist().registrationFailedPass());
+
     }
 
     @Test

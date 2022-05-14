@@ -1,31 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<testsuite name="tests.Registration" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-10T15:32:22" hostname="DESKTOP-KF54E9L" time="5.295">
+<testsuite name="tests.Registration" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-05-14T16:16:55" hostname="ARTEMKA" time="26.846">
   <properties/>
-  <testcase name="registrationNegativeMail" classname="tests.Registration" time="5.295"/>
-  <system-out><![CDATA[]]></system-out>
-=======
-<testsuite name="tests.Registration" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-05-14T15:59:30" hostname="ARTEMKA" time="26.838">
-  <properties/>
-=======
-<testsuite name="tests.Registration" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-05-14T15:59:30" hostname="ARTEMKA" time="26.838">
-  <properties/>
->>>>>>> Stashed changes
-  <testcase name="registrationNegativeExist" classname="tests.Registration" time="1.616"/>
-  <testcase name="registrationNegativeMail" classname="tests.Registration" time="3.7"/>
-  <testcase name="registrationNegativePass" classname="tests.Registration" time="3.656"/>
-  <testcase name="registrationPositive" classname="tests.Registration" time="1.109"/>
-  <testcase name="registrationPositive2" classname="tests.Registration" time="1.534"/>
-  <system-out><![CDATA[Email = user3551@gmail.com, and password = Asd3551d#%
+  <testcase name="registrationNegativeExist" classname="tests.Registration" time="1.564"/>
+  <testcase name="registrationNegativeMail" classname="tests.Registration" time="3.695"/>
+  <testcase name="registrationNegativePass" classname="tests.Registration" time="3.686"/>
+  <testcase name="registrationPositive" classname="tests.Registration" time="1.104"/>
+  <testcase name="registrationPositive2" classname="tests.Registration" time="1.559"/>
+  <system-out><![CDATA[Email = user993@gmail.com, and password = Asd993d#%
 Registered
 You are logged in success
 Ok
-Email = user3551@gmail.com, and password = Asd3551d#%
+Email = user993@gmail.com, and password = Asd993d#%
 Registered
 You are logged in success
 Ok
 ]]></system-out>
->>>>>>> Stashed changes
   <system-err><![CDATA[]]></system-err>
 </testsuite>

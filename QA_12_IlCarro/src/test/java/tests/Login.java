@@ -11,19 +11,13 @@ public class Login extends TestBase {
         if (app.login().loggedIn()) {
             app.login().logOut();
         }
-
     }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
     @AfterMethod
     public void postCondition() {
-
         app.login().clickOkBtn();
     }
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
     @Test
     public void loginPositive() {
         app.login().clickLogin();
@@ -32,7 +26,7 @@ public class Login extends TestBase {
 
 
         Assert.assertTrue(app.login().loginSuccess());
-        app.login().clickOkBtn();
+
 
     }
     @Test
@@ -42,7 +36,7 @@ public class Login extends TestBase {
         app.login().submitYalla();
 
         Assert.assertTrue(app.login().loginSuccess());
-        app.login().clickOkBtn();
+
     }
 
             @Test
@@ -54,6 +48,6 @@ public class Login extends TestBase {
 
             //Assert.assertFalse(app.login().loginSuccess());
             Assert.assertTrue(app.login().loginFail());
-                app.login().clickOkBtn();
+
         }
 }
