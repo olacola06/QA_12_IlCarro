@@ -14,11 +14,14 @@ public class Login extends TestBase {
 
     }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     @AfterMethod
     public void postCondition() {
 
         app.login().clickOkBtn();
     }
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     @Test

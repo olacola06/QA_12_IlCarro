@@ -43,9 +43,15 @@ public class HelperBase {
     }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     public void pause (){
         try {
             Thread.sleep(2000);
+=======
+    public void pause(int millis){
+        try {
+            Thread.sleep(millis);
+>>>>>>> Stashed changes
 =======
     public void pause(int millis){
         try {

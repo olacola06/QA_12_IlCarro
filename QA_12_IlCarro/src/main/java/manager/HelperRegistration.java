@@ -40,6 +40,7 @@ public class HelperRegistration extends HelperBase {
 
     public void markCheckBoxXY() {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
        WebElement checkBox = wd.findElement(By.id("terms-of-use"));
 
         if (!checkBox.isSelected()) {
@@ -49,6 +50,16 @@ public class HelperRegistration extends HelperBase {
             int XOffset = rect.getWidth() / 2;
             int YOffset = 0;
 
+=======
+
+        WebElement checkBox = wd.findElement(By.cssSelector("div input[type='checkbox']"));
+        if(!checkBox.isSelected()) {
+            WebElement label = wd.findElement(By.xpath("//*[@class='checkbox-label terms-label']"));
+            Rectangle rect = label.getRect();
+            int XOffset = rect.getWidth() / 2;
+            int YOffset = 0;
+
+>>>>>>> Stashed changes
 =======
 
         WebElement checkBox = wd.findElement(By.cssSelector("div input[type='checkbox']"));

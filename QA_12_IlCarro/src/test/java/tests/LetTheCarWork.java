@@ -17,8 +17,12 @@ public class LetTheCarWork extends TestBase {
         }
     }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
        @Test (enabled = false)
+=======
+       @Test(enabled = false)
+>>>>>>> Stashed changes
 =======
        @Test(enabled = false)
 >>>>>>> Stashed changes

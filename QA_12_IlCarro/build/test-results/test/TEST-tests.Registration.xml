@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <testsuite name="tests.Registration" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-10T15:32:22" hostname="DESKTOP-KF54E9L" time="5.295">
   <properties/>
   <testcase name="registrationNegativeMail" classname="tests.Registration" time="5.295"/>
@@ -7,6 +8,10 @@
 =======
 <testsuite name="tests.Registration" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-05-14T15:59:30" hostname="ARTEMKA" time="26.838">
   <properties/>
+=======
+<testsuite name="tests.Registration" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-05-14T15:59:30" hostname="ARTEMKA" time="26.838">
+  <properties/>
+>>>>>>> Stashed changes
   <testcase name="registrationNegativeExist" classname="tests.Registration" time="1.616"/>
   <testcase name="registrationNegativeMail" classname="tests.Registration" time="3.7"/>
   <testcase name="registrationNegativePass" classname="tests.Registration" time="3.656"/>
