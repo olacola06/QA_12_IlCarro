@@ -6,6 +6,8 @@ import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HelperRegistration extends HelperBase {
 
@@ -37,6 +39,7 @@ public class HelperRegistration extends HelperBase {
 //        click(By.css(label[for='terms-of-use']);
 
     public void markCheckBoxXY() {
+<<<<<<< Updated upstream
        WebElement checkBox = wd.findElement(By.id("terms-of-use"));
 
         if (!checkBox.isSelected()) {
@@ -46,6 +49,16 @@ public class HelperRegistration extends HelperBase {
             int XOffset = rect.getWidth() / 2;
             int YOffset = 0;
 
+=======
+
+        WebElement checkBox = wd.findElement(By.cssSelector("div input[type='checkbox']"));
+        if(!checkBox.isSelected()) {
+            WebElement label = wd.findElement(By.xpath("//*[@class='checkbox-label terms-label']"));
+            Rectangle rect = label.getRect();
+            int XOffset = rect.getWidth() / 2;
+            int YOffset = 0;
+
+>>>>>>> Stashed changes
             Actions actions = new Actions(wd);
             actions.moveToElement(label).moveByOffset(-XOffset, YOffset).click().release().perform();
         }
@@ -53,9 +66,11 @@ public class HelperRegistration extends HelperBase {
     }
 
     public boolean registrationSuccess(){
+        new WebDriverWait(wd,5).until(ExpectedConditions.
+                visibilityOf(wd.findElement(By.xpath("//*[@class='cdk-overlay-pane']"))));
         System.out.println(wd.findElement(By.xpath("//*[@class='cdk-overlay-pane']")).getText());
         String message = wd.findElement(By.xpath("//*[@class='cdk-overlay-pane']")).getText();
-        return message.contains("Registered") & (wd.findElements(By.xpath("//*[text()='Ok']")).size()>0);
+        return message.contains("Registered");
     }
 
     public boolean registrationFailedMail(){
@@ -70,6 +85,8 @@ public class HelperRegistration extends HelperBase {
     }
 
     public boolean registrationFailedExist(){
+        new WebDriverWait(wd,5).until(ExpectedConditions.
+                visibilityOf(wd.findElement(By.xpath("//*[@class='dialog-container']"))));
         String message = wd.findElement(By.xpath("//*[@class='dialog-container']")).getText();
         return message.contains("Registration error");
 

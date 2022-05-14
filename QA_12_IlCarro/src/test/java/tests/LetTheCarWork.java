@@ -16,8 +16,12 @@ public class LetTheCarWork extends TestBase {
             app.login().submitYalla();
         }
     }
+<<<<<<< Updated upstream
 
        @Test (enabled = false)
+=======
+       @Test(enabled = false)
+>>>>>>> Stashed changes
     public void carSearchSuccess(){
         Car car = Car.builder().location("Haifa").make("Germany").model("BMW").year("2010").engine("1.6").fuel("").
                 gear("").wD("").doors("4").seats("5").clasS("A").fuelConsumption("10").registrationNum("1546852").

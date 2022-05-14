@@ -13,19 +13,23 @@ public class Login extends TestBase {
         }
 
     }
+<<<<<<< Updated upstream
     @AfterMethod
     public void postCondition() {
 
         app.login().clickOkBtn();
     }
+=======
+>>>>>>> Stashed changes
     @Test
     public void loginPositive() {
         app.login().clickLogin();
         app.login().fillLoginForm("user2900@gmail.com", "As2900d#%");
         app.login().submitYalla();
 
-        Assert.assertTrue(app.login().loginSuccess());
 
+        Assert.assertTrue(app.login().loginSuccess());
+        app.login().clickOkBtn();
 
     }
     @Test
@@ -35,6 +39,7 @@ public class Login extends TestBase {
         app.login().submitYalla();
 
         Assert.assertTrue(app.login().loginSuccess());
+        app.login().clickOkBtn();
     }
 
             @Test
@@ -42,8 +47,10 @@ public class Login extends TestBase {
             app.login().clickLogin();
             app.login().fillLoginForm("user2900@gmailcom", "As2900d#%");
             app.login().submitYalla();
+            app.login().pause(3000);
 
             //Assert.assertFalse(app.login().loginSuccess());
             Assert.assertTrue(app.login().loginFail());
+                app.login().clickOkBtn();
         }
 }

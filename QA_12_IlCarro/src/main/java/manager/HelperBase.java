@@ -42,9 +42,15 @@ public class HelperBase {
 
     }
 
+<<<<<<< Updated upstream
     public void pause (){
         try {
             Thread.sleep(2000);
+=======
+    public void pause(int millis){
+        try {
+            Thread.sleep(millis);
+>>>>>>> Stashed changes
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
