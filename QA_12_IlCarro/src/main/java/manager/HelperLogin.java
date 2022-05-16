@@ -1,5 +1,6 @@
 package manager;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -17,11 +18,20 @@ public class HelperLogin extends HelperBase {
         type(By.cssSelector("div input#email"), email);
         type(By.cssSelector("div input#password"), password);
     }
+    public void fillLoginFormFS(User user){
+        type(By.cssSelector("div input#email"),user.email());
+        type(By.cssSelector("div input#password"), user.password());
+
+    }
 
     public boolean loginSuccess() {
         System.out.println(wd.findElement(By.xpath("//*[@class='cdk-overlay-pane']")).getText());
         String message = wd.findElement(By.xpath("//*[@class='cdk-overlay-pane']")).getText();
-        return message.contains("Logged in") & wd.findElements(By.xpath("//button[text()='Ok']")).size() > 0;
+        return message.contains("Logged in");
+
+    }
+    public String checkMessage(String message) {
+        return wd.findElement(By.xpath(".dialog-container")).getText();
 
     }
 

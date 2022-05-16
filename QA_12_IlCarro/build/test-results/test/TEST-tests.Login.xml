@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.Login" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-16T16:03:44" hostname="DESKTOP-KF54E9L" time="4.193">
+  <properties/>
+  <testcase name="loginPositive2" classname="tests.Login" time="4.193"/>
+  <system-out><![CDATA[Logged in
+Logged in success
+Ok
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

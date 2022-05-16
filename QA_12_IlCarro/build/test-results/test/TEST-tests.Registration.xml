@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.Registration" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-10T15:32:22" hostname="DESKTOP-KF54E9L" time="5.295">
-  <properties/>
-  <testcase name="registrationNegativeMail" classname="tests.Registration" time="5.295"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

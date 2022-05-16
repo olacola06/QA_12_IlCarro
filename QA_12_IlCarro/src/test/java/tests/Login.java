@@ -1,5 +1,6 @@
 package tests;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -16,7 +17,7 @@ public class Login extends TestBase {
     @AfterMethod
     public void postCondition() {
 
-        app.login().clickOkBtn();
+      //  app.login().clickOkBtn();
     }
     @Test
     public void loginPositive() {
@@ -31,13 +32,12 @@ public class Login extends TestBase {
     @Test
     public void loginPositive2() {
         app.login().clickLogin();
-        app.login().fillLoginForm("user29@gmail.com", "As2900d#%");
+        app.login().fillLoginFormFS(new User().withEmail("user2900@gmail.com").withPassword("As2900d#%"));
         app.login().submitYalla();
 
         Assert.assertTrue(app.login().loginSuccess());
     }
-
-            @Test
+    @Test
         public void loginNegativeEmail() {
             app.login().clickLogin();
             app.login().fillLoginForm("user2900@gmailcom", "As2900d#%");
