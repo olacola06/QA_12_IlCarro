@@ -1,4 +1,27 @@
+<<<<<<< HEAD
 
 Logged in
 Logged in success
 Ok
+=======
+Authorization error
+Wrong email or password
+Ok
+
+
+Logged in
+Logged in success
+Ok
+	5Email = user993@gmail.com, and password = Asd993d#%
+	Registered
+	You are logged in success
+	Ok
+
+5Email = user993@gmail.com, and password = Asd993d#%
+
+Registered
+
+You are logged in success
+
+Ok
+>>>>>>> d0bb1ac0eabbe2b04599420c120c4238344e3004

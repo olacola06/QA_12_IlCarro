@@ -26,7 +26,7 @@ public class HelperBase {
 
     public void submitYalla(){
         click(By.cssSelector("form button[type='submit']"));
-        pause();
+        //pause(3000);
 
     }
 
@@ -42,9 +42,9 @@ public class HelperBase {
 
     }
 
-    public void pause (){
+    public void pause(int millis){
         try {
-            Thread.sleep(2000);
+            Thread.sleep(millis);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }

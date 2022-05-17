@@ -18,17 +18,6 @@ public class Registration extends TestBase {
     String email = "user" + i + "@gmail.com"; //test fails with first UpperCase letter (User)
     String password = "Asd" + i + "d#%";
 
-//    @AfterMethod
-//    public void postCondition() {
-//        if (app.regist().registrationSuccess()) {
-//            app.regist().clickOkBtn();
-//        }
-//        if (app.regist().registrationFailedExist()) {
-//                app.regist().clickOkBtn();
-//
-//        }
-//}
-
     @Test
     public void registrationPositive() {
 
@@ -37,6 +26,8 @@ public class Registration extends TestBase {
         System.out.println("Email = " + email + ", and password = " + password);
         app.regist().markCheckBoxXY();
         app.regist().submitYalla();
+
+        //app.regist().pause(5);
 
         Assert.assertTrue(app.regist().registrationSuccess());
         app.regist().clickOkBtn();
@@ -64,8 +55,10 @@ public class Registration extends TestBase {
         app.regist().fillRegistrationForm("Ann", "Barry", "user" + i + "gmail.com", password);
         app.regist().markCheckBoxXY();
         app.regist().submitYalla();
+        app.regist().pause(3000);
 
         Assert.assertTrue(app.regist().registrationFailedMail());
+
     }
 
     @Test
@@ -74,8 +67,10 @@ public class Registration extends TestBase {
         app.regist().fillRegistrationForm("Ann", "Barry", email, "asd" + i + "d#%");
         app.regist().markCheckBoxXY();
         app.regist().submitYalla();
+        app.regist().pause(3000);
 
         Assert.assertTrue(app.regist().registrationFailedPass());
+
     }
 
     @Test

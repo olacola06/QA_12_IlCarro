@@ -12,18 +12,24 @@ public class Login extends TestBase {
         if (app.login().loggedIn()) {
             app.login().logOut();
         }
-
     }
+
     @AfterMethod
     public void postCondition() {
+<<<<<<< HEAD
 
       //  app.login().clickOkBtn();
+=======
+        app.login().clickOkBtn();
+>>>>>>> d0bb1ac0eabbe2b04599420c120c4238344e3004
     }
+
     @Test
     public void loginPositive() {
         app.login().clickLogin();
         app.login().fillLoginForm("user2900@gmail.com", "As2900d#%");
         app.login().submitYalla();
+
 
         Assert.assertTrue(app.login().loginSuccess());
 
@@ -36,14 +42,17 @@ public class Login extends TestBase {
         app.login().submitYalla();
 
         Assert.assertTrue(app.login().loginSuccess());
+
     }
     @Test
         public void loginNegativeEmail() {
             app.login().clickLogin();
             app.login().fillLoginForm("user2900@gmailcom", "As2900d#%");
             app.login().submitYalla();
+            app.login().pause(3000);
 
             //Assert.assertFalse(app.login().loginSuccess());
             Assert.assertTrue(app.login().loginFail());
+
         }
 }

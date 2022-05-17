@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite name="tests.Login" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-16T16:03:44" hostname="DESKTOP-KF54E9L" time="4.193">
   <properties/>
   <testcase name="loginPositive2" classname="tests.Login" time="4.193"/>
   <system-out><![CDATA[Logged in
+=======
+<testsuite name="tests.Login" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-05-14T16:16:45" hostname="ARTEMKA" time="10.601">
+  <properties/>
+  <testcase name="loginNegativeEmail" classname="tests.Login" time="3.522"/>
+  <testcase name="loginPositive" classname="tests.Login" time="0.81"/>
+  <testcase name="loginPositive2" classname="tests.Login" time="0.995"/>
+  <system-out><![CDATA[Authorization error
+Wrong email or password
+Ok
+
+Logged in
+>>>>>>> d0bb1ac0eabbe2b04599420c120c4238344e3004
 Logged in success
 Ok
 ]]></system-out>
