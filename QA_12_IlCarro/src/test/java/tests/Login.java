@@ -16,12 +16,12 @@ public class Login extends TestBase {
 
     @AfterMethod
     public void postCondition() {
-<<<<<<< HEAD
+
 
       //  app.login().clickOkBtn();
-=======
+
         app.login().clickOkBtn();
->>>>>>> d0bb1ac0eabbe2b04599420c120c4238344e3004
+
     }
 
     @Test
