@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LetTheCarWork" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-22T13:32:15" hostname="ARTEMKA" time="3.624">
+  <properties/>
+  <testcase name="carSearchSuccess" classname="tests.LetTheCarWork" time="3.624"/>
+  <system-out><![CDATA[16:32:09 INFO  tests.TestBase - Starts test---> carSearchSuccess
+16:32:18 INFO  tests.TestBase - Ends test---> carSearchSuccess
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

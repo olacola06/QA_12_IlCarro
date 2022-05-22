@@ -23,7 +23,7 @@ public class Registration extends TestBase {
 
         app.regist().clickSignUp();
         app.regist().fillRegistrationForm("Tom", "Morgan", email, password);
-        System.out.println("Email = " + email + ", and password = " + password);
+        logger.info("Registration with Email = " + email + ", and password = " + password);
         app.regist().markCheckBoxXY();
         app.regist().submitYalla();
 
@@ -38,10 +38,10 @@ public class Registration extends TestBase {
     public void registrationPositive2() {
         User user = new User().withName("Tom").withLastName("Morgan")
                 .withEmail("user" + i + 1 + "@gmail.com").withPassword(password);
+        logger.info("Registration with Email = " + user.email() + ", and password = " + user.password());
 
         app.regist().clickSignUp();
         app.regist().fillRegistrationFormFS(user);
-        System.out.println("Email = " + email + ", and password = " + password);
         app.regist().markCheckBoxXY();
         app.regist().submitYalla();
 
@@ -53,6 +53,7 @@ public class Registration extends TestBase {
     public void registrationNegativeMail() {
         app.regist().clickSignUp();
         app.regist().fillRegistrationForm("Ann", "Barry", "user" + i + "gmail.com", password);
+        logger.info("Registration with Email = " + "user" + i + "gmail.com" + ", and password = " + password);
         app.regist().markCheckBoxXY();
         app.regist().submitYalla();
         app.regist().pause(3000);
@@ -65,6 +66,7 @@ public class Registration extends TestBase {
     public void registrationNegativePass() {
         app.regist().clickSignUp();
         app.regist().fillRegistrationForm("Ann", "Barry", email, "asd" + i + "d#%");
+        logger.info("Registration with Email = " + email + ", and password = " + "asd" + i + "d#%");
         app.regist().markCheckBoxXY();
         app.regist().submitYalla();
         app.regist().pause(3000);
@@ -77,6 +79,8 @@ public class Registration extends TestBase {
     public void registrationNegativeExist() {
         User user = new User().withName("Ann").withLastName("Barry")
                 .withEmail("user2900@gmail.com").withPassword("Asd" + i + "d#%");
+        logger.info("Registration with email = "+user.email()+ " and password = " +user.password());
+
         app.regist().clickSignUp();
         app.regist().fillRegistrationFormFS(user);
         app.regist().markCheckBoxXY();

@@ -3,6 +3,8 @@ package manager;
 import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HelperLogin extends HelperBase {
 
@@ -25,13 +27,9 @@ public class HelperLogin extends HelperBase {
     }
 
     public boolean loginSuccess() {
-        System.out.println(wd.findElement(By.xpath("//*[@class='cdk-overlay-pane']")).getText());
-        String message = wd.findElement(By.xpath("//*[@class='cdk-overlay-pane']")).getText();
-        return message.contains("Logged in");
-
-    }
-    public String checkMessage(String message) {
-        return wd.findElement(By.xpath(".dialog-container")).getText();
+        String message = wd.findElement(By.cssSelector("h2.message")).getText();
+        logger.info("Logged in with message---> " + message);
+        return message.contains("Logged in success");
 
     }
 
@@ -39,6 +37,11 @@ public class HelperLogin extends HelperBase {
         System.out.println(wd.findElement(By.xpath("//*[@class='dialog-container']")).getText());
         String message = wd.findElement(By.xpath("//*[@class='dialog-container']")).getText();
         return message.contains("Authorization error");
+    }
+
+    public void waitWhile(){
+        new WebDriverWait(wd,5).until(ExpectedConditions.visibilityOf
+                (wd.findElement(By.xpath("//*[@class='dialog-container']"))));
     }
 
 //    public void returnToMainPage() {

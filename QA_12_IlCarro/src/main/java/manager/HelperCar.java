@@ -3,6 +3,8 @@ package manager;
 import models.Car;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 public class HelperCar extends HelperBase{
 
@@ -13,14 +15,14 @@ public class HelperCar extends HelperBase{
         click(By.cssSelector("a[href='/let-car-work']"));
     }
     public void fillForm(Car car){
-        type(By.id("pickUpPlace"), car.getLocation());
+        typeLocation(By.id("pickUpPlace"), car.getLocation());
         type(By.cssSelector("input[id='make']"),car.getMake());
         type(By.id("model"),car.getModel());
         type(By.id("year"),car.getYear());
         type(By.id("engine"),car.getEngine());
-        type(By.id("fuel"),car.getFuel());
-        type(By.id("gear"),car.getGear());
-        type(By.id("wheelsDrive"),car.getWD());
+        select(By.id("fuel"),car.getFuel());
+        select(By.id("gear"),car.getGear());
+        select(By.id("wheelsDrive"),car.getWD());
         type(By.id("doors"),car.getDoors());
         type(By.id("seats"),car.getSeats());
         type(By.id("class"),car.getClasS());
@@ -32,8 +34,21 @@ public class HelperCar extends HelperBase{
         type(By.id("about"),car.getAbout());
 
     }
-    public void addImage(){
-        click(By.xpath("//*[text()='Add photos of your car']"));
+    private void typeLocation(By locator, String location){
+        type(locator,location);
+        pause(500);
+        click(By.cssSelector("div.pac-item"));
+        pause(500);
+
+    }
+    public void select(By locator, String option){
+        new Select(wd.findElement(locator)).selectByValue(option);
+//        new Select(wd.findElement(locator)).selectByIndex(1);
+//        new Select(wd.findElement(locator)).selectByVisibleText(" Gas ");
+
+    }
+    public void addImage(String link){
+        wd.findElement(By.id("photos")).sendKeys(link);
 
     }
     public void submit(){

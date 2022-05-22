@@ -13,33 +13,29 @@ public class Login extends TestBase {
             app.login().logOut();
         }
     }
-
-    @AfterMethod
+    @AfterMethod(enabled = true)
     public void postCondition() {
-
-
-      //  app.login().clickOkBtn();
-
         app.login().clickOkBtn();
-
     }
 
     @Test
     public void loginPositive() {
         app.login().clickLogin();
         app.login().fillLoginForm("user2900@gmail.com", "As2900d#%");
+        logger.info("Login with email:---> user2900@gmail.com and password:---> As2900d#%");
         app.login().submitYalla();
-
+        app.login().pause(1000);
 
         Assert.assertTrue(app.login().loginSuccess());
-
 
     }
     @Test
     public void loginPositive2() {
         app.login().clickLogin();
         app.login().fillLoginFormFS(new User().withEmail("user2900@gmail.com").withPassword("As2900d#%"));
+        logger.info("Login with email:---> user2900@gmail.com and password:---> As2900d#%");
         app.login().submitYalla();
+        app.login().waitWhile();
 
         Assert.assertTrue(app.login().loginSuccess());
 
@@ -48,6 +44,7 @@ public class Login extends TestBase {
         public void loginNegativeEmail() {
             app.login().clickLogin();
             app.login().fillLoginForm("user2900@gmailcom", "As2900d#%");
+            logger.info("Login with email:---> user2900@gmailcom and password:---> As2900d#%");
             app.login().submitYalla();
             app.login().pause(3000);
 
