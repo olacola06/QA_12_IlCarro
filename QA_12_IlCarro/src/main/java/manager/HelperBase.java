@@ -3,6 +3,8 @@ package manager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -57,7 +59,11 @@ public class HelperBase {
         type(locator, location);
         pause(500);
         click(By.cssSelector("div.pac-item"));
-        pause(500);
+        pause(1000);
 
+    }
+    public void waitWhile(By locator){
+        new WebDriverWait(wd,5).until(ExpectedConditions.visibilityOf
+                (wd.findElement(locator)));
     }
 }

@@ -39,11 +39,6 @@ public class HelperLogin extends HelperBase {
         return message.contains("Authorization error");
     }
 
-    public void waitWhile(){
-        new WebDriverWait(wd,5).until(ExpectedConditions.visibilityOf
-                (wd.findElement(By.xpath("//*[@class='dialog-container']"))));
-    }
-
 //    public void returnToMainPage() {
 //        click(By.cssSelector("div.header img[alt='logo']"));
 //    }
