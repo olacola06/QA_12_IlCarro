@@ -26,13 +26,16 @@ public class LetTheCarWork extends TestBase {
         Car car = Car.builder().location("Haifa").make("Germany").model("BMW").year("2010").engine("1.6").fuel("Gas").
                 gear("AT").wD("AWD").doors("4").seats("5").clasS("A").fuelConsumption("10").registrationNum("123456"+i).//should be unique//
                 price("50").distance("500").features("Upgraded").about("Comfortable and reliable car").build();
+        logger.info("Test starts with car details:--->"+car.getModel()+", "+car.getMake());
 
         app.helperCar().clickLetTheCarWork();
         app.helperCar().fillForm(car);
-        app.helperCar().addImage("C:/Users/Olga/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg");
+        app.helperCar().addImage("C:/Users/Olga/GitHub/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg");
+        app.helperCar().pause(3000);
         app.helperCar().submit();
 
-       // Assert.assertTrue("");
+        Assert.assertTrue(app.helperCar().carAdded());
+        logger.info("Test finished, car with details added");
 
     }
 }

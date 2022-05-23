@@ -52,4 +52,12 @@ public class HelperBase {
             throw new RuntimeException(e);
         }
     }
+
+    public void typeLocation(By locator, String location) {
+        type(locator, location);
+        pause(500);
+        click(By.cssSelector("div.pac-item"));
+        pause(500);
+
+    }
 }

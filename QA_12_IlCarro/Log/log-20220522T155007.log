@@ -1,3 +1,0 @@
-15:50:07 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
-15:50:12 INFO  tests.TestBase - Starts test---> carSearchSuccess
-15:50:18 INFO  tests.TestBase - Ends test---> carSearchSuccess

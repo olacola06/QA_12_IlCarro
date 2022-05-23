@@ -1,9 +1,0 @@
-15:39:08 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
-15:39:12 INFO  tests.TestBase - Starts test---> loginNegativeEmail
-15:39:20 INFO  tests.TestBase - Ends test---> loginNegativeEmail
-15:39:20 INFO  tests.TestBase - Starts test---> loginPositive
-15:39:27 INFO  manager.HelperBase - Logged in with message---> Logged in success
-15:39:27 INFO  tests.TestBase - Ends test---> loginPositive
-15:39:27 INFO  tests.TestBase - Starts test---> loginPositive2
-15:39:28 INFO  manager.HelperBase - Logged in with message---> Logged in success
-15:39:28 INFO  tests.TestBase - Ends test---> loginPositive2
