@@ -22,4 +22,13 @@ public class CarSearch extends TestBase{
         Assert.assertTrue(app.search().carSearchSuccess());
 
     }
+
+    @Test
+    public void searchPeriodInFuture2(){
+        app.search().fillSearchFormAnyDate("Moscow","01/25/2023","02/28/2023");
+        app.search().submitYalla();
+
+        Assert.assertTrue(app.search().carSearchSuccess());
+
+    }
 }
