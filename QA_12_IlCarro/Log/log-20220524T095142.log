@@ -1,3 +1,0 @@
-09:51:42 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
-09:51:53 INFO  tests.TestBase - Starts test---> searchPeriodInFuture
-09:51:58 INFO  tests.TestBase - Ends test---> searchPeriodInFuture
