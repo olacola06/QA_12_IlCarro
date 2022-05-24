@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.CarSearch" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-23T15:57:49" hostname="DESKTOP-KF54E9L" time="5.373">
+<testsuite name="tests.CarSearch" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-24T07:06:51" hostname="DESKTOP-KF54E9L" time="5.091">
   <properties/>
-  <testcase name="searchPeriodCurrentMonth" classname="tests.CarSearch" time="5.373"/>
-  <system-out><![CDATA[18:57:49 INFO  tests.TestBase - Starts test---> searchPeriodCurrentMonth
-18:57:54 INFO  tests.TestBase - Ends test---> searchPeriodCurrentMonth
+  <testcase name="searchPeriodInFuture" classname="tests.CarSearch" time="5.091"/>
+  <system-out><![CDATA[10:06:51 INFO  tests.TestBase - Starts test---> searchPeriodInFuture
+10:06:57 INFO  tests.TestBase - Ends test---> searchPeriodInFuture
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
