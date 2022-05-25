@@ -1,0 +1,16 @@
+13:15:19 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+13:15:35 INFO  tests.TestBase - Starts test---> registrationNegativeExist
+13:15:40 INFO  tests.TestBase - Registration with email = user2900@gmail.com and password = Asd919d#%
+13:15:44 INFO  tests.TestBase - Ends test---> registrationNegativeExist
+13:15:44 INFO  tests.TestBase - Starts test---> registrationNegativeMail
+13:15:51 INFO  tests.TestBase - Registration with Email = user919gmail.com, and password = Asd919d#%
+13:15:54 INFO  tests.TestBase - Ends test---> registrationNegativeMail
+13:15:54 INFO  tests.TestBase - Starts test---> registrationNegativePass
+13:16:01 INFO  tests.TestBase - Registration with Email = user919@gmail.com, and password = asd919d#%
+13:16:04 INFO  tests.TestBase - Ends test---> registrationNegativePass
+13:16:04 INFO  tests.TestBase - Starts test---> registrationPositive
+13:16:11 INFO  tests.TestBase - Registration with Email = user919@gmail.com, and password = Asd919d#%
+13:16:11 INFO  tests.TestBase - Ends test---> registrationPositive
+13:16:12 INFO  tests.TestBase - Starts test---> registrationPositive2
+13:16:12 INFO  tests.TestBase - Registration with Email = user9191@gmail.com, and password = Asd919d#%
+13:16:15 INFO  tests.TestBase - Ends test---> registrationPositive2

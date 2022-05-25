@@ -1,0 +1,12 @@
+12:41:04 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+12:41:16 INFO  tests.TestBase - Starts test---> loginNegativeEmail
+12:41:23 INFO  tests.TestBase - Login with email:---> user2900@gmailcom and password:---> As2900d#%
+12:41:27 INFO  tests.TestBase - Ends test---> loginNegativeEmail
+12:41:27 INFO  tests.TestBase - Starts test---> loginPositive
+12:41:33 INFO  tests.TestBase - Login with email:---> user2900@gmail.com and password:---> As2900d#%
+12:41:34 INFO  manager.HelperBase - Logged in with message---> Logged in success
+12:41:34 INFO  tests.TestBase - Ends test---> loginPositive
+12:41:34 INFO  tests.TestBase - Starts test---> loginPositive2
+12:41:35 INFO  tests.TestBase - Login with email:---> user2900@gmail.com and password:---> As2900d#%
+12:41:36 INFO  manager.HelperBase - Logged in with message---> Logged in success
+12:41:36 INFO  tests.TestBase - Ends test---> loginPositive2

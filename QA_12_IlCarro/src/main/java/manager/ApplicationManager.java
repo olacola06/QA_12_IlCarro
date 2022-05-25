@@ -43,7 +43,7 @@ public class ApplicationManager {
 
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        wd.navigate().to("https://ilcarro.xyz/search");
+        wd.navigate().to("https://ilcarro-1578153671498.web.app");
         regist = new HelperRegistration(wd);
         login = new HelperLogin(wd);
         search = new HelperSearch(wd);

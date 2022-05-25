@@ -26,17 +26,17 @@ public class CarSearch extends TestBase{
 
     }
 
-    @Test(enabled = false)
-    public void searchPeriodInFuture2(){
-        //app.search().fillSearchFormAnyDate2("Moscow","01/25/2023","02/28/2023");
-        app.search().submitYalla();
-
-        Assert.assertTrue(app.search().carSearchSuccess());
-
-    }
+//    @Test(enabled = true)
+//    public void searchPeriodInFuture2(){
+//        app.search().fillSearchFormFutureYears("Moscow","01/25/2023","02/28/2023");
+//        app.search().submitYalla();
+//
+//        Assert.assertTrue(app.search().carSearchSuccess());
+//
+//    }
 
     @AfterMethod
     public void returnToMainPage(){
-        app.search().click(By.xpath(""));
+        app.search().click(By.xpath("//*[@alt='logo']"));
     }
 }
