@@ -1,0 +1,3 @@
+10:57:24 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+10:57:35 INFO  tests.TestBase - Starts test---> searchPeriodInFutureLocalData
+10:57:42 INFO  tests.TestBase - rent details:-->Moscow, from 25 Oct 2022 till 28 May 2023

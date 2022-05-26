@@ -25,10 +25,19 @@ public class CarSearch extends TestBase{
         Assert.assertTrue(app.search().carSearchSuccess());
 
     }
+    @Test
+    public void searchPeriodInFutureLocalData(){
+        app.search().fillSearchFormAnyDateLocalData("Moscow","10/25/2022","05/28/2023");
+        logger.info("rent details:-->"+"Moscow, from 25 Oct 2022 till 28 May 2023");
+        app.search().submitYalla();
+
+        Assert.assertTrue(app.search().carSearchSuccess());
+
+    }
 
 //    @Test(enabled = true)
 //    public void searchPeriodInFuture2(){
-//        app.search().fillSearchFormFutureYears("Moscow","01/25/2023","02/28/2023");
+//        app.search().fillSearchFormFutureYears("Moscow","11/25/2022","03/05/2023");
 //        app.search().submitYalla();
 //
 //        Assert.assertTrue(app.search().carSearchSuccess());
