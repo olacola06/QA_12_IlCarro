@@ -1,8 +1,0 @@
-09:10:41 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
-09:10:45 INFO  tests.TestBase - Starts test---> carSearchFail
-09:10:50 INFO  tests.TestBase - Car to be added-->Car(location=Tokio, Japan, make=Japan, model=Toyota, year=2010, engine=2.6, fuel=Petrol, gear=MT, wD=FWD, doors=3, seats=5, clasS=SuperClass, fuelConsumption=10, registrationNum=100-20-300, price=-1, distance=120, features=Like new one, about=Amazing car)
-09:10:54 INFO  tests.TestBase - Car was not added, entered wrong data-->Price must be positive
-09:10:54 INFO  tests.TestBase - Ends test---> carSearchFail
-09:10:54 INFO  tests.TestBase - Starts test---> carSearchSuccess
-09:10:54 INFO  tests.TestBase - Test starts with car details:--->BMW, Germany
-09:10:58 INFO  tests.TestBase - Ends test---> carSearchSuccess

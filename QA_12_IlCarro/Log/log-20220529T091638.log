@@ -1,5 +1,0 @@
-09:16:38 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
-09:16:41 INFO  tests.TestBase - Starts test---> carSearchSuccess
-09:16:47 INFO  tests.TestBase - Test starts with car details:--->BMW, Germany
-09:16:54 INFO  tests.TestBase - Test finished, added car-->Car(location=Haifa, make=Germany, model=BMW, year=2010, engine=1.6, fuel=Gas, gear=AT, wD=AWD, doors=4, seats=5, clasS=A, fuelConsumption=10, registrationNum=1234561389, price=50, distance=500, features=Upgraded, about=Comfortable and reliable car)
-09:16:54 INFO  tests.TestBase - Ends test---> carSearchSuccess
