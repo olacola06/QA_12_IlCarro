@@ -1,5 +1,6 @@
 package manager;
 
+import net.bytebuddy.asm.Advice;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -32,8 +33,8 @@ public class HelperSearch extends HelperBase {
         typeLocation(By.id("city"), city);
         click(By.id("dates"));
 
-        String todayDate = "05/24/2022";
-        String[] todayD = todayDate.split("/"); // [05] [24] [2022]
+        String todayDate = "05/28/2022";
+        String[] todayD = todayDate.split("/"); // [05] [28] [2022]
         int todayMonth = Integer.parseInt(todayD[0]); //[05] --> digit 5
 
         String[] dateF = dateFrom.split("/");
@@ -75,20 +76,19 @@ public class HelperSearch extends HelperBase {
         int diff = from.getYear() - now.getYear() == 0 ? from.getMonthValue() - now.getMonthValue() :
                 12 - now.getMonthValue() + from.getMonthValue();
         clickNextMonth(diff);
-        String dateLocator = String.format("//div[text()=' %s ']",from.getDayOfMonth());
+        String dateLocator = String.format("//div[text()=' %s ']", from.getDayOfMonth());
         click(By.xpath(dateLocator));
 
-        diff = to.getYear() - from.getYear() ==0 ? to.getMonthValue() - from.getMonthValue() :
-               12 - from.getMonthValue() + to.getMonthValue();
+        diff = to.getYear() - from.getYear() == 0 ? to.getMonthValue() - from.getMonthValue() :
+                12 - from.getMonthValue() + to.getMonthValue();
         clickNextMonth(diff);
-        pause(2000);
-        dateLocator = String.format("//div[text()=' %s ']",to.getDayOfMonth());
+        dateLocator = String.format("//div[text()=' %s ']", to.getDayOfMonth());
         click(By.xpath(dateLocator));
 
     }
 
-    private void clickNextMonth(int diff){
-        for(; diff>0; diff--){
+    private void clickNextMonth(int diff) {
+        for (; diff > 0; diff--) {
             click(By.xpath("//button[@aria-label='Next month']"));
         }
     }
@@ -96,63 +96,35 @@ public class HelperSearch extends HelperBase {
     public boolean carSearchSuccess() {
         return wd.findElements(By.cssSelector("div.search-results")).size() > 0;
     }
+
+    public void fillSearchFormAnyDateLocalDataIf(String city, String dateFrom, String dateTo) {
+        typeLocation(By.id("city"), city);
+        click(By.id("dates"));
+
+        LocalDate rentFrom = LocalDate.parse(dateFrom,DateTimeFormatter.ofPattern("MM/dd/yyyy"));
+        LocalDate rentTo = LocalDate.parse(dateTo,DateTimeFormatter.ofPattern("MM/dd/yyyy"));
+        LocalDate now = LocalDate.now();
+
+        int diff;
+        if ((rentFrom.getYear() - now.getYear())!=0){
+            diff = 12 - now.getMonthValue() + rentFrom.getMonthValue();
+        }
+        diff = rentFrom.getMonthValue() - now.getMonthValue();
+        clickNextMonth(diff);
+        String locator = String.format("//div[text()=' %s ']",rentFrom.getDayOfMonth());
+        click(By.xpath(locator));
+
+        if ((rentTo.getYear() - rentFrom.getYear())!=0){
+            diff = 12 - rentFrom.getMonthValue() + rentTo.getMonthValue();
+        }
+        diff = rentTo.getMonthValue() - rentFrom.getMonthValue();
+        clickNextMonth(diff);
+        locator = String.format("//div[text()=' %s ']",rentTo.getDayOfMonth());
+        click(By.xpath(locator));
+    }
+
+    public void returnMainPage() {
+        click(By.xpath("//*[@alt='logo']"));
+    }
 }
-//    public void fillSearchFormFutureYears(String city, String dateFrom, String dateTo) {
-//        // rent period from 01/25/2023" to "03/28/2023"//
-//        typeLocation(By.id("city"),city);
-//        click(By.id("dates"));
-//
-//        String todayDate = "05/24/2022";
-//        String []todayD = todayDate.split("/"); // [05] [24] [2022]
-//        int todayYear = Integer.parseInt(todayD[2]); // [2022] --> digit 2022
-//        int todayMonth = Integer.parseInt(todayD[0]); //[05] --> digit 5
-//
-//        String []dateF = dateFrom.split("/");
-//        String []dateT = dateTo.split("/");
-//        int dateMonthFrom = Integer.parseInt(dateF[0]); // [01] --> digit 1
-//        int dateYearFrom = Integer.parseInt(dateF[2]);
-//        int dateMonthTo = Integer.parseInt(dateT[0]); // [2] --> digit 2
-//        int dateYearTo = Integer.parseInt(dateT[2]);
-//
-//       int diff = dateYearFrom-todayYear;
-//       if(diff!=0){
-//           click(By.xpath("//button[@aria-label='Choose month and year']"));
-//           String locatorY = String.format("//div[text()=' %s ']",dateF[2]);
-//           click(By.xpath(locatorY));
-//
-//           if (dateMonthFrom==01){
-//               click(By.xpath("//div[text()=' JAN ']"));
-//           }
-//           if (dateMonthFrom==02) {
-//               click(By.xpath("//div[text()=' FEB ']"));
-//           }
-//           if (dateMonthFrom==03) {
-//               click(By.xpath("//div[text()=' MAR ']"));
-//           }
-//           if (dateMonthFrom==05){
-//               click(By.xpath("//div[text()=' APR ']"));
-//           }
-//           if (dateMonthFrom==06){
-//               click(By.xpath("//div[text()=' JUN ']"));
-//           }
-//           String dateLocatorFrom = String.format("//div[text()=' %s ']",dateF[1]);
-//           click(By.xpath(dateLocatorFrom));
-//
-//       }
-//       diff = dateMonthFrom - todayMonth;
-//       for (;diff>0;diff--){
-//           click(By.xpath("//button[@aria-label='Next month']"));
-//       }
-//        String dateLocatorFrom = String.format("//div[text()=' %s ']",dateF[1]);
-//        click(By.xpath(dateLocatorFrom));
-//
-//       int diff2 = dateMonthTo - dateMonthFrom;//can't calculate 03 (march) - 11 (november) = -8
-//            if(diff2!=0){
-//                for(int i=0;i<diff2;i++){
-//                    click(By.xpath("//button[@aria-label='Next month']"));
-//                }
-//        }
-//            String dateLocatorTo = String.format("//div[text()=' %s ']", dateT[1]);
-//            click(By.xpath(dateLocatorTo));
-//    }
 

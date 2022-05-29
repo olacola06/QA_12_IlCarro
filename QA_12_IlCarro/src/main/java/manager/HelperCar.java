@@ -4,7 +4,9 @@ import models.Car;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HelperCar extends HelperBase {
 
@@ -32,7 +34,7 @@ public class HelperCar extends HelperBase {
         type(By.id("serialNumber"), car.getRegistrationNum());
         type(By.id("price"), car.getPrice());
         type(By.id("distance"), car.getDistance());
-        type(By.cssSelector("input[class='feature-input']"), car.getFeatures());
+        type(By.cssSelector("input.feature-input"), car.getFeatures());
         type(By.id("about"), car.getAbout());
 
     }
@@ -49,13 +51,29 @@ public class HelperCar extends HelperBase {
 
     }
 
-    public void submit() {
+    public void submitCar() {
+        new WebDriverWait(wd, 10).until(ExpectedConditions.
+                elementToBeClickable(wd.findElement(By.xpath("//*[text()='Submit']"))));
         click(By.xpath("//*[text()='Submit']"));
     }
 
-    public boolean carAdded() {
+    public boolean carAddedTrue() {
         String message = wd.findElement(By.xpath("//*[text()='Car added']")).getText();
         return message.contains("Car added");
+    }
+    public String carAddedEquels() {
+        String message = wd.findElement(By.cssSelector("div h1.title")).getText();
+        return message;
+    }
+
+
+    public void clickSearchCars() {
+        click(By.xpath("//*[text()='Search cars']"));
+    }
+
+    public String wrongDataEntered() {
+        String message = wd.findElement(By.cssSelector("div.error")).getText();
+        return  message;
     }
 }
 
