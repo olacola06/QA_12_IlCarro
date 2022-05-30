@@ -3,6 +3,7 @@ package tests;
 import models.Car;
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -10,7 +11,7 @@ import static tests.TestBase.app;
 
 public class LetTheCarWork extends TestBase {
 
-    @BeforeMethod
+    @BeforeClass
     public void preCondition(){
         if(!app.login().loggedIn()){
             app.login().clickLogin();

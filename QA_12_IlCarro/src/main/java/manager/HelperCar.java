@@ -33,7 +33,9 @@ public class HelperCar extends HelperBase {
         type(By.id("fuelConsumption"), car.getFuelConsumption());
         type(By.id("serialNumber"), car.getRegistrationNum());
         type(By.id("price"), car.getPrice());
+        pause(2000);
         type(By.id("distance"), car.getDistance());
+        pause(2000);
         type(By.cssSelector("input.feature-input"), car.getFeatures());
         type(By.id("about"), car.getAbout());
 
