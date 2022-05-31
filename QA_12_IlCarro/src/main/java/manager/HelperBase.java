@@ -66,4 +66,7 @@ public class HelperBase {
         new WebDriverWait(wd,5).until(ExpectedConditions.visibilityOf
                 (wd.findElement(locator)));
     }
+    public void returnMainPage() {
+        click(By.xpath("//*[@alt='logo']"));
+    }
 }

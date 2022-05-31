@@ -33,9 +33,7 @@ public class HelperCar extends HelperBase {
         type(By.id("fuelConsumption"), car.getFuelConsumption());
         type(By.id("serialNumber"), car.getRegistrationNum());
         type(By.id("price"), car.getPrice());
-        pause(2000);
         type(By.id("distance"), car.getDistance());
-        pause(2000);
         type(By.cssSelector("input.feature-input"), car.getFeatures());
         type(By.id("about"), car.getAbout());
 
@@ -68,7 +66,6 @@ public class HelperCar extends HelperBase {
         return message;
     }
 
-
     public void clickSearchCars() {
         click(By.xpath("//*[text()='Search cars']"));
     }
@@ -76,6 +73,13 @@ public class HelperCar extends HelperBase {
     public String wrongDataEntered() {
         String message = wd.findElement(By.cssSelector("div.error")).getText();
         return  message;
+    }
+
+    public boolean WrongDataMessageAppears() {
+        if (wd.findElements(By.cssSelector("div.error")).size()<=0){
+            return false;
+        }
+        return true;
     }
 }
 

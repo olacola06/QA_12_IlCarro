@@ -123,8 +123,5 @@ public class HelperSearch extends HelperBase {
         click(By.xpath(locator));
     }
 
-    public void returnMainPage() {
-        click(By.xpath("//*[@alt='logo']"));
-    }
 }
 
