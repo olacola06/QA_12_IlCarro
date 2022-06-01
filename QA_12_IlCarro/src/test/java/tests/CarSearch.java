@@ -9,8 +9,8 @@ public class CarSearch extends TestBase{
 
     @Test
     public void searchPeriodCurrentMonth(){
-        app.search().fillSearchFormCurrentMonth("Tel Aviv","05/29/2022","05/30/2022");
-        logger.info("rent details:-->"+"Tel Aviv, from 29 May 2022 till 30 May 2022");
+        app.search().fillSearchFormCurrentMonth("Tel Aviv","06/19/2022","06/30/2022");
+        logger.info("rent details:-->"+"Tel Aviv, from 19 June 2022 till 30 June 2022");
         app.search().submitYalla();
 
         Assert.assertTrue(app.search().carSearchSuccess());
@@ -29,8 +29,8 @@ public class CarSearch extends TestBase{
     }
     @Test
     public void searchPeriodInFutureLocalData(){
-        app.search().fillSearchFormAnyDateLocalData("Tokio","01/25/2023","05/28/2023");
-        logger.info("rent details:-->"+"Moscow, from 25 Jan 2023 till 28 May 2023");
+        app.search().fillSearchFormAnyDateLocalData("Tokyo, Japan","01/25/2023","05/28/2023");
+        logger.info("rent details:-->"+"Tokio, from 25 Jan 2023 till 28 May 2023");
         app.search().submitYalla();
 
         Assert.assertTrue(app.search().carSearchSuccess());

@@ -16,8 +16,6 @@ public class MyListener extends AbstractWebDriverEventListener {
     public MyListener() {
         super();
     }
-
-    //EventFiringWebDriver wd;
     Logger logger = LoggerFactory.getLogger(MyListener.class);
 
     @Override

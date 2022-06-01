@@ -1,0 +1,109 @@
+15:32:02 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+15:32:25 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+15:32:30 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+15:32:30 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Log in ']
+15:32:30 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Log in '] was found
+15:32:31 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#email
+15:32:31 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#email was found
+15:32:31 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#password
+15:32:31 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#password was found
+15:32:32 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: form button[type='submit']
+15:32:32 INFO  manager.MyListener - Element with locator-->By.cssSelector: form button[type='submit'] was found
+15:32:32 INFO  tests.TestBase - Starts test---> carSearchFail
+15:32:32 INFO  tests.TestBase - Car to be added-->Car(location=Tokio, Japan, make=Japan, model=Toyota, year=2010, engine=2.6, fuel=Petrol, gear=MT, wD=FWD, doors=3, seats=5, clasS=SuperClass, fuelConsumption=10, registrationNum=100-20-300, price=-1, distance=120, features=Like new one, about=Amazing car)
+15:32:32 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+15:32:32 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+15:32:32 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+15:32:32 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+15:32:34 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+15:32:35 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+15:32:36 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+15:32:36 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+15:32:36 INFO  manager.MyListener - Start search element by locator-->By.id: model
+15:32:36 INFO  manager.MyListener - Element with locator-->By.id: model was found
+15:32:37 INFO  manager.MyListener - Start search element by locator-->By.id: year
+15:32:37 INFO  manager.MyListener - Element with locator-->By.id: year was found
+15:32:37 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+15:32:37 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+15:32:38 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+15:32:38 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+15:32:38 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+15:32:38 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+15:32:38 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+15:32:38 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+15:32:38 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "MT"]
+15:32:38 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "MT"] was found
+15:32:38 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+15:32:38 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+15:32:38 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "FWD"]
+15:32:39 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "FWD"] was found
+15:32:39 INFO  manager.MyListener - Start search element by locator-->By.id: doo
+15:32:45 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/let-car-work
+15:32:45 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"css selector","selector":"#doo"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f864130587475b3fd1d083928203fcc5
+*** Element info: {Using=id, value=doo}
+15:32:45 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#doo"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f864130587475b3fd1d083928203fcc5
+*** Element info: {Using=id, value=doo}
+15:32:45 INFO  tests.TestBase - Ends test---> carSearchFail
+15:32:45 INFO  tests.TestBase - Starts test---> carSearchSuccess
+15:32:45 INFO  tests.TestBase - Test starts with car details:--->BMW, Germany
+15:32:45 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+15:32:46 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+15:32:46 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+15:32:46 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+15:32:47 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+15:32:47 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+15:32:49 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+15:32:49 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+15:32:49 INFO  manager.MyListener - Start search element by locator-->By.id: model
+15:32:49 INFO  manager.MyListener - Element with locator-->By.id: model was found
+15:32:50 INFO  manager.MyListener - Start search element by locator-->By.id: year
+15:32:50 INFO  manager.MyListener - Element with locator-->By.id: year was found
+15:32:50 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+15:32:50 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+15:32:51 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+15:32:51 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+15:32:51 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Gas"]
+15:32:51 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Gas"] was found
+15:32:51 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+15:32:51 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+15:32:51 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "AT"]
+15:32:51 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "AT"] was found
+15:32:51 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+15:32:51 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+15:32:51 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "AWD"]
+15:32:51 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "AWD"] was found
+15:32:51 INFO  manager.MyListener - Start search element by locator-->By.id: doo
+15:32:56 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/let-car-work
+15:32:56 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"css selector","selector":"#doo"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f864130587475b3fd1d083928203fcc5
+*** Element info: {Using=id, value=doo}
+15:32:56 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#doo"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f864130587475b3fd1d083928203fcc5
+*** Element info: {Using=id, value=doo}
+15:32:57 INFO  tests.TestBase - Ends test---> carSearchSuccess

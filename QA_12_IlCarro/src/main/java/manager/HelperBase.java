@@ -28,6 +28,9 @@ public class HelperBase {
         element.sendKeys(text);
 
     }
+    public void clear(By locator){
+        wd.findElement(By.id("dates")).clear();
+    }
 
     public void submitYalla(){
         click(By.cssSelector("form button[type='submit']"));

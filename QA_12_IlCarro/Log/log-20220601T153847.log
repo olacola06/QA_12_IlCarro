@@ -1,0 +1,67 @@
+15:38:47 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+15:38:59 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+15:39:04 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+15:39:04 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Log in ']
+15:39:04 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Log in '] was found
+15:39:04 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#email
+15:39:04 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#email was found
+15:39:05 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#password
+15:39:05 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#password was found
+15:39:05 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: form button[type='submit']
+15:39:05 INFO  manager.MyListener - Element with locator-->By.cssSelector: form button[type='submit'] was found
+15:39:05 INFO  tests.TestBase - Starts test---> carSearchFail
+15:39:06 INFO  tests.TestBase - Car to be added-->Car(location=Tokio, Japan, make=Japan, model=Toyota, year=2010, engine=2.6, fuel=Petrol, gear=MT, wD=FWD, doors=3, seats=5, clasS=SuperClass, fuelConsumption=10, registrationNum=100-20-300, price=-1, distance=120, features=Like new one, about=Amazing car)
+15:39:06 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+15:39:06 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+15:39:06 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+15:39:06 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+15:39:07 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+15:39:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+15:39:08 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+15:39:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+15:39:09 INFO  manager.MyListener - Start search element by locator-->By.id: model
+15:39:09 INFO  manager.MyListener - Element with locator-->By.id: model was found
+15:39:09 INFO  manager.MyListener - Start search element by locator-->By.id: year
+15:39:09 INFO  manager.MyListener - Element with locator-->By.id: year was found
+15:39:10 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+15:39:10 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+15:39:10 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+15:39:10 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+15:39:10 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+15:39:10 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+15:39:10 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+15:39:10 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+15:39:10 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "MT"]
+15:39:10 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "MT"] was found
+15:39:11 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+15:39:11 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+15:39:11 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "FWD"]
+15:39:11 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "FWD"] was found
+15:39:11 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+15:39:11 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+15:39:11 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+15:39:11 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+15:39:12 INFO  manager.MyListener - Start search element by locator-->By.id: class
+15:39:12 INFO  manager.MyListener - Element with locator-->By.id: class was found
+15:39:12 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+15:39:12 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+15:39:13 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+15:39:13 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+15:39:13 INFO  manager.MyListener - Start search element by locator-->By.id: price
+15:39:13 INFO  manager.MyListener - Element with locator-->By.id: price was found
+15:39:14 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+15:39:14 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+15:39:14 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+15:39:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+15:39:14 INFO  manager.MyListener - Start search element by locator-->By.id: about
+15:39:14 INFO  manager.MyListener - Element with locator-->By.id: about was found
+15:39:15 INFO  manager.MyListener - Start search element by locator-->By.id: photos
+15:39:15 INFO  manager.MyListener - Element with locator-->By.id: photos was found
+15:39:15 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.error
+15:39:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.error was found
+15:39:15 INFO  tests.TestBase - Car was not added, entered wrong data-->Price must be positive
+15:39:15 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.error
+15:39:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.error was found
+15:39:15 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@alt='logo']
+15:39:15 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@alt='logo'] was found
+15:39:16 INFO  tests.TestBase - Ends test---> carSearchFail
