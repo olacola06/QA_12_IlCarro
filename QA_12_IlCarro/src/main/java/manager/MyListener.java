@@ -48,4 +48,17 @@ public class MyListener extends AbstractWebDriverEventListener {
             e.printStackTrace();
         }
     }
+
+//    @Override
+//    public void beforeGetText(WebElement element, WebDriver driver) {
+//        super.beforeGetText(element, driver);
+//        logger.info("A message expected to be received");
+//    }
+//
+//    @Override
+//    public void afterGetText(WebElement element, WebDriver driver, String text) {
+//        super.afterGetText(element, driver, text);
+//        logger.info("Message was received-->"+text);
+//    }
+
 }

@@ -65,8 +65,8 @@ public class Registration extends TestBase {
     @Test
     public void registrationNegativePass() {
         app.regist().clickSignUp();
-        app.regist().fillRegistrationForm("Ann", "Barry", email, "asd" + i + "d#%");
-        logger.info("Registration with Email = " + email + ", and password = " + "asd" + i + "d#%");
+        app.regist().fillRegistrationForm("Ann", "Barry", email, "Asd" + i + "d#%");
+        logger.info("Registration with Email = " + email + ", and password = " + "Asd" + i + "d#%");
         app.regist().markCheckBoxXY();
         app.regist().submitYalla();
         app.regist().pause(3000);
