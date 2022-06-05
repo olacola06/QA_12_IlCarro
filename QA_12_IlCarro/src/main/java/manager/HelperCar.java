@@ -62,6 +62,8 @@ public class HelperCar extends HelperBase {
         return message.contains("Car added");
     }
     public String carAddedEquels() {
+        new WebDriverWait(wd,5).until(ExpectedConditions.visibilityOf
+                (wd.findElement(By.cssSelector("div h1.title"))));
         String message = wd.findElement(By.cssSelector("div h1.title")).getText();
         return message;
     }

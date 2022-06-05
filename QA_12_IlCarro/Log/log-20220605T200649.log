@@ -1,0 +1,11 @@
+20:06:49 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+20:06:54 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+20:06:59 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+20:06:59 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Log in ']
+20:06:59 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Log in '] was found
+20:06:59 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#email
+20:06:59 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#email was found
+20:07:00 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#password
+20:07:00 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#password was found
+20:07:00 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: form button[type='submit']
+20:07:00 INFO  manager.MyListener - Element with locator-->By.cssSelector: form button[type='submit'] was found

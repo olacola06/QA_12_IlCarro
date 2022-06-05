@@ -1,6 +1,7 @@
 package manager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -14,43 +15,46 @@ public class HelperBase {
     public HelperBase(WebDriver wd) {
         this.wd = wd;
     }
+
     Logger logger = LoggerFactory.getLogger(HelperBase.class);
 
-    public void click(By locator){
+    public void click(By locator) {
         wd.findElement(locator).click();
 
     }
 
-    public void type(By locator, String text){
+    public void type(By locator, String text) {
         WebElement element = wd.findElement(locator);
         element.click();
         element.clear();
         element.sendKeys(text);
 
     }
-    public void clear(By locator){
+
+    public void clear(By locator) {
         wd.findElement(By.id("dates")).clear();
     }
 
-    public void submitYalla(){
+    public void submitYalla() {
         click(By.cssSelector("form button[type='submit']"));
         //pause(3000);
 
     }
 
-    public boolean loggedIn(){
-        return wd.findElements(By.xpath("//*[text()=' Logout ']")).size()>0;
+    public boolean loggedIn() {
+        return wd.findElements(By.xpath("//*[text()=' Logout ']")).size() > 0;
     }
+
     public void clickOkBtn() {
         click(By.xpath("//button[text()='Ok']"));
     }
 
-    public void logOut(){
+    public void logOut() {
         click(By.xpath("//*[text()=' Logout ']"));
 
     }
 
-    public void pause(int millis){
+    public void pause(int millis) {
         try {
             Thread.sleep(millis);
         } catch (InterruptedException e) {
@@ -65,10 +69,12 @@ public class HelperBase {
         pause(1000);
 
     }
-    public void waitWhile(By locator){
-        new WebDriverWait(wd,5).until(ExpectedConditions.visibilityOf
+
+    public void waitWhile(By locator) {
+        new WebDriverWait(wd, 5).until(ExpectedConditions.visibilityOf
                 (wd.findElement(locator)));
     }
+
     public void returnMainPage() {
         click(By.xpath("//*[@alt='logo']"));
     }

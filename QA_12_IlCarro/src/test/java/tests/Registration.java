@@ -1,5 +1,6 @@
 package tests;
 
+import manager.MyDataProvider;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -18,26 +19,30 @@ public class Registration extends TestBase {
     String email = "user" + i + "@gmail.com"; //test fails with first UpperCase letter (User)
     String password = "Asd" + i + "d#%";
 
-    @Test
-    public void registrationPositive() {
+    @Test(dataProvider = "registrationValidData",dataProviderClass = MyDataProvider.class)
+    //public void registrationPositive(){
+    public void registrationPositive(String name, String lastName, String email, String password) {
 
         app.regist().clickSignUp();
-        app.regist().fillRegistrationForm("Tom", "Morgan", email, password);
-        logger.info("Registration with Email = " + email + ", and password = " + password);
+        //app.regist().fillRegistrationForm("Tom", "Morgan", email, password);
+        app.regist().fillRegistrationForm(name,lastName, email, password);
+        logger.info("Registration with details = "+name+", "+lastName+", " + email + ", and password = " + password);
         app.regist().markCheckBoxXY();
         app.regist().submitYalla();
 
         //app.regist().pause(5);
 
         Assert.assertTrue(app.regist().registrationSuccess());
+        logger.info("Test finished Success");
         app.regist().clickOkBtn();
 
     }
 
-    @Test
-    public void registrationPositive2() {
-        User user = new User().withName("Tom").withLastName("Morgan")
-                .withEmail("user" + i + 1 + "@gmail.com").withPassword(password);
+    @Test(dataProvider = "registValidDataFS",dataProviderClass = MyDataProvider.class)
+//    public void registrationPositive2() {
+//        User user = new User().withName("Tom").withLastName("Morgan")
+//                .withEmail("user" + i + 1 + "@gmail.com").withPassword(password);
+        public void registrationPositive2(User user){
         logger.info("Registration with Email = " + user.email() + ", and password = " + user.password());
 
         app.regist().clickSignUp();
@@ -49,14 +54,17 @@ public class Registration extends TestBase {
         app.regist().clickOkBtn();
 
     }
-    @Test
-    public void registrationNegativeMail() {
+    @Test(dataProvider = "registrationWrongEmailCSV",dataProviderClass = MyDataProvider.class)
+    //public void registrationNegativeMail() {
+        public void registrationNegativeMail(String name, String lastName, String email, String password) {
         app.regist().clickSignUp();
-        app.regist().fillRegistrationForm("Ann", "Barry", "user" + i + "gmail.com", password);
-        logger.info("Registration with Email = " + "user" + i + "gmail.com" + ", and password = " + password);
+        //app.regist().fillRegistrationForm("Ann", "Barry", "user" + i + "gmail.com", password);
+        app.regist().fillRegistrationForm(name,lastName,email,password);
+        //logger.info("Registration with Email = " + "user" + i + "gmail.com" + ", and password = " + password);
+        logger.info("Registration with Email = " + email + ", and password = " + password);
         app.regist().markCheckBoxXY();
         app.regist().submitYalla();
-        app.regist().pause(3000);
+        //app.regist().pause(2000);
 
         Assert.assertTrue(app.regist().registrationFailedMail());
 
@@ -65,11 +73,11 @@ public class Registration extends TestBase {
     @Test
     public void registrationNegativePass() {
         app.regist().clickSignUp();
-        app.regist().fillRegistrationForm("Ann", "Barry", email, "Asd" + i + "d#%");
-        logger.info("Registration with Email = " + email + ", and password = " + "Asd" + i + "d#%");
+        app.regist().fillRegistrationForm("Ann", "Barry", email, "asd" + i + "d#%");
+        logger.info("Registration with Email = " + email + ", and password = " + "asd" + i + "d#%");
         app.regist().markCheckBoxXY();
         app.regist().submitYalla();
-        app.regist().pause(3000);
+        //app.regist().pause(2000);
 
         Assert.assertTrue(app.regist().registrationFailedPass());
 

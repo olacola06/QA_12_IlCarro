@@ -33,11 +33,6 @@ public class HelperRegistration extends HelperBase {
         type(By.cssSelector("div input#password"), user.password());
     }
 
-//    public void markCheckBox() {
-//        //click(By.xpath("//*[@id='terms-of-use']"));//Selenium doesn't see it
-//        //click(By.xpath("//*[@class='checkbox-label terms-label']"));
-//        click(By.css(label[for='terms-of-use']);
-
     public void markCheckBoxXY() {
 
         WebElement checkBox = wd.findElement(By.cssSelector("div input[type='checkbox']"));

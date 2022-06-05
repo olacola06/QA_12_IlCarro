@@ -2,6 +2,7 @@ package manager;
 
 import net.bytebuddy.asm.Advice;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -19,8 +20,6 @@ public class HelperSearch extends HelperBase {
 
         clear(By.id("dates"));
         click(By.id("dates"));
-        //clear(By.id("dates"));
-
 
         String[] dataF = dataFrom.split("/");
         String[] dataT = dataTo.split("/");
@@ -38,7 +37,6 @@ public class HelperSearch extends HelperBase {
 
         clear(By.id("dates"));
         click(By.id("dates"));
-        //clear(By.id("dates"));
 
         String todayDate = "06/18/2022";
         String[] todayD = todayDate.split("/"); // [05] [28] [2022]
@@ -76,7 +74,6 @@ public class HelperSearch extends HelperBase {
 
         clear(By.id("dates"));
         click(By.id("dates"));
-        //clear(By.id("dates"));
 
         LocalDate from = LocalDate.parse(dateFrom, DateTimeFormatter.ofPattern("MM/dd/yyyy"));
         LocalDate to = LocalDate.parse(dateTo, DateTimeFormatter.ofPattern("MM/dd/yyyy"));
@@ -111,7 +108,6 @@ public class HelperSearch extends HelperBase {
 
         clear(By.id("dates"));
         click(By.id("dates"));
-        //clear(By.id("dates"));
 
         LocalDate rentFrom = LocalDate.parse(dateFrom,DateTimeFormatter.ofPattern("MM/dd/yyyy"));
         LocalDate rentTo = LocalDate.parse(dateTo,DateTimeFormatter.ofPattern("MM/dd/yyyy"));
@@ -135,6 +131,14 @@ public class HelperSearch extends HelperBase {
         clickNextMonth(diff);
         locator = String.format("//div[text()=' %s ']",rentTo.getDayOfMonth());
         click(By.xpath(locator));
+    }
+    public void returnMainPage2() {
+        click(By.xpath("//*[@alt='logo']"));
+        //wd.navigate().refresh();
+        WebElement el = wd.findElement(By.id("dates"));
+        el.sendKeys(Keys.CONTROL+"a");
+        pause(2000);
+        el.sendKeys(Keys.DELETE);
     }
 
 }
