@@ -45,7 +45,7 @@ public class MyDataProvider {
     public Iterator<Object[]> registrationWrongEmailCSV() throws IOException {
         List<Object[]> list = new ArrayList<>();
 
-        BufferedReader reader = new BufferedReader(new FileReader("src/test/resources/registrationLoginData.csv"));
+        BufferedReader reader = new BufferedReader(new FileReader("src/test/resources/registrationLoginInvalidData.csv"));
         String line = reader.readLine();
         while (line != null) {
             String[] obj = line.split(",");
