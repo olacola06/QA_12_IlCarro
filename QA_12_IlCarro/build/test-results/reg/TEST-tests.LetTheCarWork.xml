@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LetTheCarWork" tests="12" skipped="0" failures="5" errors="0" timestamp="2022-06-12T09:52:19" hostname="DESKTOP-KF54E9L" time="119.928">
+  <properties/>
+  <testcase name="carSearchSuccess[0](Car(location=London, make=UK, model=Porsh, year=2018, engine=2.8, fuel=Petrol, gear=SMT, wD=FWD, doors=3, seats=2, clasS=Sx, fuelConsumption=12, registrationNum=10-100-3333139, price=80, distance=150, features=Red fast car, about=Super car))" classname="tests.LetTheCarWork" time="12.867"/>
+  <testcase name="carSearchSuccess[1](Car(location=Berlin, make=UK, model=Porsh, year=2018, engine=2.8, fuel=Petrol, gear=SMT, wD=FWD, doors=3, seats=2, clasS=Sx, fuelConsumption=12, registrationNum=10-100-33331391, price=80, distance=150, features=Red fast car, about=Super car))" classname="tests.LetTheCarWork" time="11.232"/>
+  <testcase name="carSearchSuccess[2](Car(location=Paris, make=UK, model=Porsh, year=2018, engine=2.8, fuel=Petrol, gear=SMT, wD=FWD, doors=3, seats=2, clasS=Sx, fuelConsumption=12, registrationNum=10-100-33331392, price=80, distance=150, features=Red fast car, about=Super car))" classname="tests.LetTheCarWork" time="10.402"/>
+  <testcase name="carSearchSuccess[3](Car(location=Madrid, make=UK, model=Porsh, year=2018, engine=2.8, fuel=Petrol, gear=SMT, wD=FWD, doors=3, seats=2, clasS=Sx, fuelConsumption=12, registrationNum=10-100-33331393, price=80, distance=150, features=Red fast car, about=Super car))" classname="tests.LetTheCarWork" time="11.198"/>
+  <testcase name="carSearchSuccessDP[0](Car(location=Tel Aviv, make=Japan, model=Honda, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-13, price=10, distance=120, features=New resin, about=Used but in good conditions))" classname="tests.LetTheCarWork" time="10.867"/>
+  <testcase name="carSearchSuccessDP[1](Car(location=Moscow, make=Japan, model=Toyota, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-13, price=15, distance=120, features=New resin, about=Used but in good conditions))" classname="tests.LetTheCarWork" time="10.598"/>
+  <testcase name="carSearchSuccessDP[2](Car(location=Tokio, make=Japan, model=BMW, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-13, price=20, distance=120, features=New resin, about=Used but in good conditions))" classname="tests.LetTheCarWork" time="11.866"/>
+  <testcase name="carSearchSuccessDP[3](Car(location=Singapore, make=Japan, model=Deep, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-13, price=25, distance=120, features=New resin, about=Used but in good conditions))" classname="tests.LetTheCarWork" time="14.084">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()='Car added']&quot;}&#10;  (Session info: chrome=102.0.5005.115)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fdf9c3485712340eb72ff36198b17ee6&#10;*** Element info: {Using=xpath, value=//*[text()='Car added']}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()='Car added']&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdf9c3485712340eb72ff36198b17ee6
+*** Element info: {Using=xpath, value=//*[text()='Car added']}
+	at manager.MyListener.onException(MyListener.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy11.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at com.sun.proxy.$Proxy12.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at manager.HelperCar.carAddedTrue(HelperCar.java:61)
+	at tests.LetTheCarWork.carSearchSuccessDP(LetTheCarWork.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="carSearchSuccessDP[4](Car(location=London, make=Japan, model=lada, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-13, price=30, distance=120, features=New resin, about=Used but in good conditions))" classname="tests.LetTheCarWork" time="5.395">
+    <failure message="org.openqa.selenium.ElementNotInteractableException: element not interactable&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fdf9c3485712340eb72ff36198b17ee6" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdf9c3485712340eb72ff36198b17ee6
+	at manager.MyListener.onException(MyListener.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy11.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:406)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at manager.HelperBase.click(HelperBase.java:22)
+	at manager.HelperCar.clickLetTheCarWork(HelperCar.java:18)
+	at tests.LetTheCarWork.carSearchSuccessDP(LetTheCarWork.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="carSearchSuccessDP[5](Car(location=New York, make=Japan, model=Honda, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-13, price=35, distance=120, features=New resin, about=Used but in good conditions))" classname="tests.LetTheCarWork" time="10.01">
+    <failure message="org.openqa.selenium.ElementNotInteractableException: element not interactable&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fdf9c3485712340eb72ff36198b17ee6" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdf9c3485712340eb72ff36198b17ee6
+	at manager.MyListener.onException(MyListener.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy11.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:406)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at manager.HelperBase.click(HelperBase.java:22)
+	at manager.HelperCar.clickLetTheCarWork(HelperCar.java:18)
+	at tests.LetTheCarWork.carSearchSuccessDP(LetTheCarWork.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="carSearchSuccessDP[6](Car(location=Samara, make=Japan, model=Porche, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-13, price=40, distance=120, features=New resin, about=Used but in good conditions))" classname="tests.LetTheCarWork" time="5.852">
+    <failure message="org.openqa.selenium.ElementNotInteractableException: element not interactable&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fdf9c3485712340eb72ff36198b17ee6" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdf9c3485712340eb72ff36198b17ee6
+	at manager.MyListener.onException(MyListener.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy11.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:406)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at manager.HelperBase.click(HelperBase.java:22)
+	at manager.HelperCar.clickLetTheCarWork(HelperCar.java:18)
+	at tests.LetTheCarWork.carSearchSuccessDP(LetTheCarWork.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="carSearchSuccessDP[7](Car(location=Miami, make=Japan, model=Mercedes, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-13, price=45, distance=120, features=New resin, about=Used but in good conditions))" classname="tests.LetTheCarWork" time="5.492">
+    <failure message="org.openqa.selenium.ElementNotInteractableException: element not interactable&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fdf9c3485712340eb72ff36198b17ee6" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdf9c3485712340eb72ff36198b17ee6
+	at manager.MyListener.onException(MyListener.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy11.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:406)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at manager.HelperBase.click(HelperBase.java:22)
+	at manager.HelperCar.clickLetTheCarWork(HelperCar.java:18)
+	at tests.LetTheCarWork.carSearchSuccessDP(LetTheCarWork.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[12:52:12 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+12:52:17 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+12:52:17 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Log in ']
+12:52:17 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Log in '] was found
+12:52:17 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#email
+12:52:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#email was found
+12:52:18 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#password
+12:52:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#password was found
+12:52:19 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: form button[type='submit']
+12:52:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: form button[type='submit'] was found
+12:52:19 INFO  tests.TestBase - Starts test---> carSearchSuccess
+12:52:19 INFO  tests.TestBase - Test starts with car details:--->London, Porsh, UK
+12:52:19 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+12:52:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+12:52:19 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+12:52:19 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+12:52:20 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+12:52:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+12:52:22 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+12:52:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+12:52:22 INFO  manager.MyListener - Start search element by locator-->By.id: model
+12:52:22 INFO  manager.MyListener - Element with locator-->By.id: model was found
+12:52:22 INFO  manager.MyListener - Start search element by locator-->By.id: year
+12:52:22 INFO  manager.MyListener - Element with locator-->By.id: year was found
+12:52:23 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+12:52:23 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+12:52:23 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+12:52:23 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+12:52:23 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+12:52:23 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+12:52:23 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+12:52:23 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+12:52:23 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "SMT"]
+12:52:24 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "SMT"] was found
+12:52:24 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+12:52:24 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+12:52:24 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "FWD"]
+12:52:24 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "FWD"] was found
+12:52:24 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+12:52:24 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+12:52:24 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+12:52:24 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+12:52:25 INFO  manager.MyListener - Start search element by locator-->By.id: class
+12:52:25 INFO  manager.MyListener - Element with locator-->By.id: class was found
+12:52:25 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+12:52:25 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+12:52:26 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+12:52:26 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+12:52:26 INFO  manager.MyListener - Start search element by locator-->By.id: price
+12:52:26 INFO  manager.MyListener - Element with locator-->By.id: price was found
+12:52:27 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+12:52:27 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+12:52:27 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+12:52:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+12:52:27 INFO  manager.MyListener - Start search element by locator-->By.id: about
+12:52:27 INFO  manager.MyListener - Element with locator-->By.id: about was found
+12:52:28 INFO  manager.MyListener - Start search element by locator-->By.id: photos
+12:52:28 INFO  manager.MyListener - Element with locator-->By.id: photos was found
+12:52:28 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Submit']
+12:52:28 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Submit'] was found
+12:52:30 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Submit']
+12:52:30 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Submit'] was found
+12:52:30 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Car added']
+12:52:32 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Car added'] was found
+12:52:32 INFO  tests.TestBase - Test finished, added car-->Car(location=London, make=UK, model=Porsh, year=2018, engine=2.8, fuel=Petrol, gear=SMT, wD=FWD, doors=3, seats=2, clasS=Sx, fuelConsumption=12, registrationNum=10-100-3333139, price=80, distance=150, features=Red fast car, about=Super car)
+12:52:32 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Search cars']
+12:52:32 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Search cars'] was found
+12:52:32 INFO  tests.TestBase - Ends test---> carSearchSuccess
+12:52:32 INFO  tests.TestBase - Starts test---> carSearchSuccess
+12:52:32 INFO  tests.TestBase - Test starts with car details:--->Berlin, Porsh, UK
+12:52:32 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+12:52:32 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+12:52:32 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+12:52:32 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+12:52:33 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+12:52:33 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+12:52:34 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+12:52:34 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+12:52:35 INFO  manager.MyListener - Start search element by locator-->By.id: model
+12:52:35 INFO  manager.MyListener - Element with locator-->By.id: model was found
+12:52:35 INFO  manager.MyListener - Start search element by locator-->By.id: year
+12:52:35 INFO  manager.MyListener - Element with locator-->By.id: year was found
+12:52:35 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+12:52:35 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+12:52:36 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+12:52:36 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+12:52:36 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+12:52:36 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+12:52:36 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+12:52:36 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+12:52:36 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "SMT"]
+12:52:36 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "SMT"] was found
+12:52:36 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+12:52:36 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+12:52:36 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "FWD"]
+12:52:37 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "FWD"] was found
+12:52:37 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+12:52:37 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+12:52:37 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+12:52:37 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+12:52:37 INFO  manager.MyListener - Start search element by locator-->By.id: class
+12:52:38 INFO  manager.MyListener - Element with locator-->By.id: class was found
+12:52:38 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+12:52:38 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+12:52:38 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+12:52:38 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+12:52:39 INFO  manager.MyListener - Start search element by locator-->By.id: price
+12:52:39 INFO  manager.MyListener - Element with locator-->By.id: price was found
+12:52:39 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+12:52:39 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+12:52:40 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+12:52:40 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+12:52:40 INFO  manager.MyListener - Start search element by locator-->By.id: about
+12:52:40 INFO  manager.MyListener - Element with locator-->By.id: about was found
+12:52:40 INFO  manager.MyListener - Start search element by locator-->By.id: photos
+12:52:40 INFO  manager.MyListener - Element with locator-->By.id: photos was found
+12:52:40 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Submit']
+12:52:40 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Submit'] was found
+12:52:42 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Submit']
+12:52:42 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Submit'] was found
+12:52:42 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Car added']
+12:52:43 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Car added'] was found
+12:52:43 INFO  tests.TestBase - Test finished, added car-->Car(location=Berlin, make=UK, model=Porsh, year=2018, engine=2.8, fuel=Petrol, gear=SMT, wD=FWD, doors=3, seats=2, clasS=Sx, fuelConsumption=12, registrationNum=10-100-33331391, price=80, distance=150, features=Red fast car, about=Super car)
+12:52:43 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Search cars']
+12:52:43 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Search cars'] was found
+12:52:43 INFO  tests.TestBase - Ends test---> carSearchSuccess
+12:52:43 INFO  tests.TestBase - Starts test---> carSearchSuccess
+12:52:43 INFO  tests.TestBase - Test starts with car details:--->Paris, Porsh, UK
+12:52:43 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+12:52:43 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+12:52:43 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+12:52:43 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+12:52:44 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+12:52:44 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+12:52:45 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+12:52:45 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+12:52:46 INFO  manager.MyListener - Start search element by locator-->By.id: model
+12:52:46 INFO  manager.MyListener - Element with locator-->By.id: model was found
+12:52:46 INFO  manager.MyListener - Start search element by locator-->By.id: year
+12:52:46 INFO  manager.MyListener - Element with locator-->By.id: year was found
+12:52:46 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+12:52:46 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+12:52:47 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+12:52:47 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+12:52:47 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+12:52:47 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+12:52:47 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+12:52:47 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+12:52:47 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "SMT"]
+12:52:47 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "SMT"] was found
+12:52:47 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+12:52:47 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+12:52:47 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "FWD"]
+12:52:47 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "FWD"] was found
+12:52:47 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+12:52:47 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+12:52:48 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+12:52:48 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+12:52:48 INFO  manager.MyListener - Start search element by locator-->By.id: class
+12:52:48 INFO  manager.MyListener - Element with locator-->By.id: class was found
+12:52:48 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+12:52:48 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+12:52:49 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+12:52:49 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+12:52:49 INFO  manager.MyListener - Start search element by locator-->By.id: price
+12:52:49 INFO  manager.MyListener - Element with locator-->By.id: price was found
+12:52:50 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+12:52:50 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+12:52:50 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+12:52:50 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+12:52:50 INFO  manager.MyListener - Start search element by locator-->By.id: about
+12:52:50 INFO  manager.MyListener - Element with locator-->By.id: about was found
+12:52:51 INFO  manager.MyListener - Start search element by locator-->By.id: photos
+12:52:51 INFO  manager.MyListener - Element with locator-->By.id: photos was found
+12:52:51 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Submit']
+12:52:51 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Submit'] was found
+12:52:52 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Submit']
+12:52:52 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Submit'] was found
+12:52:52 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Car added']
+12:52:53 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Car added'] was found
+12:52:53 INFO  tests.TestBase - Test finished, added car-->Car(location=Paris, make=UK, model=Porsh, year=2018, engine=2.8, fuel=Petrol, gear=SMT, wD=FWD, doors=3, seats=2, clasS=Sx, fuelConsumption=12, registrationNum=10-100-33331392, price=80, distance=150, features=Red fast car, about=Super car)
+12:52:53 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Search cars']
+12:52:53 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Search cars'] was found
+12:52:53 INFO  tests.TestBase - Ends test---> carSearchSuccess
+12:52:53 INFO  tests.TestBase - Starts test---> carSearchSuccess
+12:52:53 INFO  tests.TestBase - Test starts with car details:--->Madrid, Porsh, UK
+12:52:53 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+12:52:53 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+12:52:54 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+12:52:54 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+12:52:55 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+12:52:55 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+12:52:56 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+12:52:56 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+12:52:56 INFO  manager.MyListener - Start search element by locator-->By.id: model
+12:52:56 INFO  manager.MyListener - Element with locator-->By.id: model was found
+12:52:56 INFO  manager.MyListener - Start search element by locator-->By.id: year
+12:52:56 INFO  manager.MyListener - Element with locator-->By.id: year was found
+12:52:57 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+12:52:57 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+12:52:57 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+12:52:57 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+12:52:57 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+12:52:57 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+12:52:57 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+12:52:57 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+12:52:57 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "SMT"]
+12:52:58 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "SMT"] was found
+12:52:58 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+12:52:58 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+12:52:58 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "FWD"]
+12:52:58 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "FWD"] was found
+12:52:58 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+12:52:58 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+12:52:58 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+12:52:58 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+12:52:59 INFO  manager.MyListener - Start search element by locator-->By.id: class
+12:52:59 INFO  manager.MyListener - Element with locator-->By.id: class was found
+12:52:59 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+12:52:59 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+12:53:00 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+12:53:00 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+12:53:00 INFO  manager.MyListener - Start search element by locator-->By.id: price
+12:53:00 INFO  manager.MyListener - Element with locator-->By.id: price was found
+12:53:00 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+12:53:00 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+12:53:01 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+12:53:01 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+12:53:01 INFO  manager.MyListener - Start search element by locator-->By.id: about
+12:53:01 INFO  manager.MyListener - Element with locator-->By.id: about was found
+12:53:01 INFO  manager.MyListener - Start search element by locator-->By.id: photos
+12:53:01 INFO  manager.MyListener - Element with locator-->By.id: photos was found
+12:53:01 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Submit']
+12:53:01 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Submit'] was found
+12:53:03 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Submit']
+12:53:03 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Submit'] was found
+12:53:03 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Car added']
+12:53:05 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Car added'] was found
+12:53:05 INFO  tests.TestBase - Test finished, added car-->Car(location=Madrid, make=UK, model=Porsh, year=2018, engine=2.8, fuel=Petrol, gear=SMT, wD=FWD, doors=3, seats=2, clasS=Sx, fuelConsumption=12, registrationNum=10-100-33331393, price=80, distance=150, features=Red fast car, about=Super car)
+12:53:05 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Search cars']
+12:53:05 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Search cars'] was found
+12:53:05 INFO  tests.TestBase - Ends test---> carSearchSuccess
+12:53:05 INFO  tests.TestBase - Starts test---> carSearchSuccessDP
+12:53:05 INFO  tests.TestBase - Test starts with car details-->Car(location=Tel Aviv, make=Japan, model=Honda, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-133576, price=10, distance=120, features=New resin, about=Used but in good conditions)
+12:53:05 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+12:53:05 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+12:53:05 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+12:53:05 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+12:53:06 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+12:53:06 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+12:53:07 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+12:53:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+12:53:07 INFO  manager.MyListener - Start search element by locator-->By.id: model
+12:53:07 INFO  manager.MyListener - Element with locator-->By.id: model was found
+12:53:08 INFO  manager.MyListener - Start search element by locator-->By.id: year
+12:53:08 INFO  manager.MyListener - Element with locator-->By.id: year was found
+12:53:08 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+12:53:08 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+12:53:08 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+12:53:08 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+12:53:08 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+12:53:08 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+12:53:09 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+12:53:09 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+12:53:09 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "MT"]
+12:53:09 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "MT"] was found
+12:53:09 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+12:53:09 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+12:53:09 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "AWD"]
+12:53:09 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "AWD"] was found
+12:53:09 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+12:53:09 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+12:53:10 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+12:53:10 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+12:53:10 INFO  manager.MyListener - Start search element by locator-->By.id: class
+12:53:10 INFO  manager.MyListener - Element with locator-->By.id: class was found
+12:53:10 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+12:53:10 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+12:53:11 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+12:53:11 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+12:53:11 INFO  manager.MyListener - Start search element by locator-->By.id: price
+12:53:11 INFO  manager.MyListener - Element with locator-->By.id: price was found
+12:53:12 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+12:53:12 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+12:53:12 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+12:53:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+12:53:12 INFO  manager.MyListener - Start search element by locator-->By.id: about
+12:53:12 INFO  manager.MyListener - Element with locator-->By.id: about was found
+12:53:13 INFO  manager.MyListener - Start search element by locator-->By.id: photos
+12:53:13 INFO  manager.MyListener - Element with locator-->By.id: photos was found
+12:53:13 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Submit']
+12:53:13 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Submit'] was found
+12:53:14 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Submit']
+12:53:14 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Submit'] was found
+12:53:14 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Car added']
+12:53:15 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Car added'] was found
+12:53:15 INFO  tests.TestBase - Test finished, car added Success
+12:53:15 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Search cars']
+12:53:15 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Search cars'] was found
+12:53:16 INFO  tests.TestBase - Ends test---> carSearchSuccessDP
+12:53:16 INFO  tests.TestBase - Starts test---> carSearchSuccessDP
+12:53:16 INFO  tests.TestBase - Test starts with car details-->Car(location=Moscow, make=Japan, model=Toyota, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-133587, price=15, distance=120, features=New resin, about=Used but in good conditions)
+12:53:16 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+12:53:16 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+12:53:16 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+12:53:16 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+12:53:17 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+12:53:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+12:53:18 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+12:53:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+12:53:18 INFO  manager.MyListener - Start search element by locator-->By.id: model
+12:53:18 INFO  manager.MyListener - Element with locator-->By.id: model was found
+12:53:18 INFO  manager.MyListener - Start search element by locator-->By.id: year
+12:53:18 INFO  manager.MyListener - Element with locator-->By.id: year was found
+12:53:19 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+12:53:19 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+12:53:19 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+12:53:19 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+12:53:19 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+12:53:19 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+12:53:19 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+12:53:19 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+12:53:20 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "MT"]
+12:53:20 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "MT"] was found
+12:53:20 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+12:53:20 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+12:53:20 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "AWD"]
+12:53:20 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "AWD"] was found
+12:53:20 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+12:53:20 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+12:53:20 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+12:53:20 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+12:53:21 INFO  manager.MyListener - Start search element by locator-->By.id: class
+12:53:21 INFO  manager.MyListener - Element with locator-->By.id: class was found
+12:53:21 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+12:53:21 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+12:53:21 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+12:53:21 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+12:53:22 INFO  manager.MyListener - Start search element by locator-->By.id: price
+12:53:22 INFO  manager.MyListener - Element with locator-->By.id: price was found
+12:53:22 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+12:53:22 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+12:53:23 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+12:53:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+12:53:23 INFO  manager.MyListener - Start search element by locator-->By.id: about
+12:53:23 INFO  manager.MyListener - Element with locator-->By.id: about was found
+12:53:23 INFO  manager.MyListener - Start search element by locator-->By.id: photos
+12:53:23 INFO  manager.MyListener - Element with locator-->By.id: photos was found
+12:53:23 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Submit']
+12:53:23 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Submit'] was found
+12:53:25 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Submit']
+12:53:25 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Submit'] was found
+12:53:25 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Car added']
+12:53:26 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Car added'] was found
+12:53:26 INFO  tests.TestBase - Test finished, car added Success
+12:53:26 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Search cars']
+12:53:26 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Search cars'] was found
+12:53:26 INFO  tests.TestBase - Ends test---> carSearchSuccessDP
+12:53:26 INFO  tests.TestBase - Starts test---> carSearchSuccessDP
+12:53:26 INFO  tests.TestBase - Test starts with car details-->Car(location=Tokio, make=Japan, model=BMW, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-133597, price=20, distance=120, features=New resin, about=Used but in good conditions)
+12:53:26 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+12:53:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+12:53:26 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+12:53:26 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+12:53:27 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+12:53:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+12:53:28 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+12:53:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+12:53:29 INFO  manager.MyListener - Start search element by locator-->By.id: model
+12:53:29 INFO  manager.MyListener - Element with locator-->By.id: model was found
+12:53:29 INFO  manager.MyListener - Start search element by locator-->By.id: year
+12:53:29 INFO  manager.MyListener - Element with locator-->By.id: year was found
+12:53:30 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+12:53:30 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+12:53:30 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+12:53:30 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+12:53:30 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+12:53:30 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+12:53:30 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+12:53:30 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+12:53:30 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "MT"]
+12:53:31 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "MT"] was found
+12:53:31 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+12:53:31 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+12:53:31 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "AWD"]
+12:53:31 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "AWD"] was found
+12:53:31 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+12:53:31 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+12:53:31 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+12:53:31 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+12:53:32 INFO  manager.MyListener - Start search element by locator-->By.id: class
+12:53:32 INFO  manager.MyListener - Element with locator-->By.id: class was found
+12:53:32 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+12:53:32 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+12:53:33 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+12:53:33 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+12:53:33 INFO  manager.MyListener - Start search element by locator-->By.id: price
+12:53:33 INFO  manager.MyListener - Element with locator-->By.id: price was found
+12:53:33 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+12:53:33 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+12:53:34 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+12:53:34 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+12:53:34 INFO  manager.MyListener - Start search element by locator-->By.id: about
+12:53:34 INFO  manager.MyListener - Element with locator-->By.id: about was found
+12:53:35 INFO  manager.MyListener - Start search element by locator-->By.id: photos
+12:53:35 INFO  manager.MyListener - Element with locator-->By.id: photos was found
+12:53:35 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Submit']
+12:53:35 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Submit'] was found
+12:53:36 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Submit']
+12:53:36 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Submit'] was found
+12:53:36 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Car added']
+12:53:38 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Car added'] was found
+12:53:38 INFO  tests.TestBase - Test finished, car added Success
+12:53:38 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Search cars']
+12:53:38 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Search cars'] was found
+12:53:38 INFO  tests.TestBase - Ends test---> carSearchSuccessDP
+12:53:38 INFO  tests.TestBase - Starts test---> carSearchSuccessDP
+12:53:38 INFO  tests.TestBase - Test starts with car details-->Car(location=Singapore, make=Japan, model=Deep, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-139, price=25, distance=120, features=New resin, about=Used but in good conditions)
+12:53:38 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+12:53:38 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+12:53:38 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+12:53:38 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+12:53:39 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+12:53:39 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+12:53:40 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+12:53:40 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+12:53:41 INFO  manager.MyListener - Start search element by locator-->By.id: model
+12:53:41 INFO  manager.MyListener - Element with locator-->By.id: model was found
+12:53:41 INFO  manager.MyListener - Start search element by locator-->By.id: year
+12:53:41 INFO  manager.MyListener - Element with locator-->By.id: year was found
+12:53:41 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+12:53:41 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+12:53:42 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+12:53:42 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+12:53:42 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+12:53:42 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+12:53:42 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+12:53:42 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+12:53:42 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "MT"]
+12:53:42 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "MT"] was found
+12:53:42 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+12:53:42 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+12:53:42 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "AWD"]
+12:53:42 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "AWD"] was found
+12:53:42 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+12:53:42 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+12:53:42 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+12:53:42 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+12:53:43 INFO  manager.MyListener - Start search element by locator-->By.id: class
+12:53:43 INFO  manager.MyListener - Element with locator-->By.id: class was found
+12:53:43 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+12:53:43 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+12:53:44 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+12:53:44 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+12:53:44 INFO  manager.MyListener - Start search element by locator-->By.id: price
+12:53:44 INFO  manager.MyListener - Element with locator-->By.id: price was found
+12:53:44 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+12:53:44 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+12:53:45 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+12:53:45 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+12:53:45 INFO  manager.MyListener - Start search element by locator-->By.id: about
+12:53:45 INFO  manager.MyListener - Element with locator-->By.id: about was found
+12:53:45 INFO  manager.MyListener - Start search element by locator-->By.id: photos
+12:53:45 INFO  manager.MyListener - Element with locator-->By.id: photos was found
+12:53:45 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Submit']
+12:53:45 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Submit'] was found
+12:53:47 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Submit']
+12:53:47 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Submit'] was found
+12:53:47 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Car added']
+12:53:52 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/let-car-work
+12:53:52 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Car added']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdf9c3485712340eb72ff36198b17ee6
+*** Element info: {Using=xpath, value=//*[text()='Car added']}
+12:53:52 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Car added']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdf9c3485712340eb72ff36198b17ee6
+*** Element info: {Using=xpath, value=//*[text()='Car added']}
+12:53:52 INFO  tests.TestBase - Ends test---> carSearchSuccessDP
+12:53:52 INFO  tests.TestBase - Starts test---> carSearchSuccessDP
+12:53:52 INFO  tests.TestBase - Test starts with car details-->Car(location=London, make=Japan, model=lada, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-1323, price=30, distance=120, features=New resin, about=Used but in good conditions)
+12:53:52 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+12:53:52 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+12:53:57 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/let-car-work
+12:53:57 INFO  manager.MyListener - element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdf9c3485712340eb72ff36198b17ee6
+12:53:57 INFO  manager.MyListener - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdf9c3485712340eb72ff36198b17ee6
+12:53:57 INFO  tests.TestBase - Ends test---> carSearchSuccessDP
+12:53:58 INFO  tests.TestBase - Starts test---> carSearchSuccessDP
+12:53:58 INFO  tests.TestBase - Test starts with car details-->Car(location=New York, make=Japan, model=Honda, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-1329, price=35, distance=120, features=New resin, about=Used but in good conditions)
+12:53:58 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+12:53:58 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+12:54:03 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/let-car-work
+12:54:03 INFO  manager.MyListener - element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdf9c3485712340eb72ff36198b17ee6
+12:54:03 INFO  manager.MyListener - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdf9c3485712340eb72ff36198b17ee6
+12:54:08 INFO  tests.TestBase - Ends test---> carSearchSuccessDP
+12:54:08 INFO  tests.TestBase - Starts test---> carSearchSuccessDP
+12:54:08 INFO  tests.TestBase - Test starts with car details-->Car(location=Samara, make=Japan, model=Porche, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-1339, price=40, distance=120, features=New resin, about=Used but in good conditions)
+12:54:08 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+12:54:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+12:54:13 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/let-car-work
+12:54:13 INFO  manager.MyListener - element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdf9c3485712340eb72ff36198b17ee6
+12:54:13 INFO  manager.MyListener - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdf9c3485712340eb72ff36198b17ee6
+12:54:13 INFO  tests.TestBase - Ends test---> carSearchSuccessDP
+12:54:13 INFO  tests.TestBase - Starts test---> carSearchSuccessDP
+12:54:13 INFO  tests.TestBase - Test starts with car details-->Car(location=Miami, make=Japan, model=Mercedes, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-1344, price=45, distance=120, features=New resin, about=Used but in good conditions)
+12:54:13 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+12:54:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+12:54:19 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/let-car-work
+12:54:19 INFO  manager.MyListener - element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdf9c3485712340eb72ff36198b17ee6
+12:54:19 INFO  manager.MyListener - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '10.11.182.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdf9c3485712340eb72ff36198b17ee6
+12:54:19 INFO  tests.TestBase - Ends test---> carSearchSuccessDP
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

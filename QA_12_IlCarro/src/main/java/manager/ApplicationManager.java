@@ -40,7 +40,7 @@ public class ApplicationManager {
 
         }else if(browser.equals(BrowserType.FIREFOX)){
             wd = new EventFiringWebDriver(new FirefoxDriver());
-            logger.info("All tests starts in 'Edge' browser");
+            logger.info("All tests starts in 'FireFox' browser");
         }
 
         wd.register(new MyListener());

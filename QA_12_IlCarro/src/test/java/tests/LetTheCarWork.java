@@ -12,7 +12,7 @@ import static tests.TestBase.app;
 
 public class LetTheCarWork extends TestBase {
 
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void preCondition(){
         if(!app.login().loggedIn()){
             app.login().clickLogin();
@@ -20,10 +20,7 @@ public class LetTheCarWork extends TestBase {
             app.login().submitYalla();
         }
     }
-
-    int i = (int)(System.currentTimeMillis())/1000%3600;
-
-    @Test(enabled = true, dataProvider = "letTheCarWorkDataLombok",dataProviderClass = MyDataProvider.class)
+   @Test(groups = {"allPositive"}, enabled = true, dataProvider = "letTheCarWorkDataLombok",dataProviderClass = MyDataProvider.class)
 
     public void carSearchSuccess(Car car){
 //    Car car = Car.builder().location("Haifa").make("Germany").model("BMW").year("2010").engine("1.6").fuel("Gas").
@@ -42,12 +39,36 @@ public class LetTheCarWork extends TestBase {
         app.helperCar().clickSearchCars();
 
     }
-    @Test(dataProvider = "letTheCarWorkWrongData",dataProviderClass = MyDataProvider.class)
+    //@Test(groups = {"allPositive"}, dataProvider = "letTheCarWorkValidData",dataProviderClass = MyDataProvider.class)
+    @Test(groups = {"allPositive"}, dataProvider = "letTheCarWorkValidWithoutSingapore",dataProviderClass = MyDataProvider.class)
+    public void carSearchSuccessDP(Car car){
+        int i = (int) (System.currentTimeMillis())/1000%3600;
+        car.setRegistrationNum("10-15-13"+i);
+        logger.info("Test starts with car details-->" + car.toString());
+
+        app.helperCar().clickLetTheCarWork();
+        app.helperCar().fillForm(car);
+
+        app.helperCar().addImage("C:/Users/Olga/GitHub/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg");
+        app.helperCar().submitCar();
+
+        Assert.assertTrue(app.helperCar().carAddedTrue());
+        logger.info("Test finished, car added Success");
+        app.helperCar().clickSearchCars();
+
+    }
+    @Test(enabled = false, dataProvider = "letTheCarWorkWrongData",dataProviderClass = MyDataProvider.class)
     public void carSearchFail(Car car){
 //        Car car = Car.builder().location("Tokio, Japan").make("Japan").model("Toyota").year("2010").engine("2.6").fuel("Petrol").
 //                gear("MT").wD("FWD").doors("3").seats("5").clasS("SuperClass").fuelConsumption("10").registrationNum("100-20-300").
 //                price("-1").distance("120").features("Like new one").about("Amazing car").build();
+
+        int i = (int) (System.currentTimeMillis())/1000%3600;
+        car.setRegistrationNum(car.getRegistrationNum()+i);
+        //car.setRegistrationNum("10-15-133"+i);
+
         logger.info("Car to be added-->"+car.toString());
+
 
         app.helperCar().clickLetTheCarWork();
         app.helperCar().fillForm(car);

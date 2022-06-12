@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class Registration extends TestBase {
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (app.regist().loggedIn()) {
             app.regist().logOut();
@@ -19,7 +19,7 @@ public class Registration extends TestBase {
     String email = "user" + i + "@gmail.com"; //test fails with first UpperCase letter (User)
     String password = "Asd" + i + "d#%";
 
-    @Test(dataProvider = "registrationValidData",dataProviderClass = MyDataProvider.class)
+    @Test(groups = {"four"}, dataProvider = "registrationValidData",dataProviderClass = MyDataProvider.class)
     //public void registrationPositive(){
     public void registrationPositive(String name, String lastName, String email, String password) {
 
@@ -54,7 +54,7 @@ public class Registration extends TestBase {
         app.regist().clickOkBtn();
 
     }
-    @Test(dataProvider = "registrationWrongEmailCSV",dataProviderClass = MyDataProvider.class)
+    @Test(groups = {"four", "negative"}, dataProvider = "registrationWrongEmailCSV",dataProviderClass = MyDataProvider.class)
     //public void registrationNegativeMail() {
         public void registrationNegativeMail(String name, String lastName, String email, String password) {
         app.regist().clickSignUp();
@@ -70,7 +70,7 @@ public class Registration extends TestBase {
 
     }
 
-    @Test
+    @Test(groups ={"negative"})
     public void registrationNegativePass() {
         app.regist().clickSignUp();
         app.regist().fillRegistrationForm("Ann", "Barry", email, "asd" + i + "d#%");
@@ -83,7 +83,7 @@ public class Registration extends TestBase {
 
     }
 
-    @Test
+    @Test(groups ={"negative"})
     public void registrationNegativeExist() {
         User user = new User().withName("Ann").withLastName("Barry")
                 .withEmail("user2900@gmail.com").withPassword("Asd" + i + "d#%");

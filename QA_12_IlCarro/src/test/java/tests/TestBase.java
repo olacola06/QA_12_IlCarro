@@ -18,22 +18,22 @@ public class TestBase {
 
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void loggerStart(Method m){
         logger.info("Starts test---> "+m.getName());
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void loggerStop(Method m){
         logger.info("Ends test---> "+m.getName());
     }
 
-    @BeforeSuite
+    @BeforeSuite(alwaysRun = true)
     public void init(){
         app.setUp();
     }
 
-//    @AfterSuite
+//    @AfterSuite (alwaysRun = true)
 //    public void tearDown(){
 //        app.stop();
 //    }

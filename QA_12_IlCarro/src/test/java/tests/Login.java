@@ -7,13 +7,13 @@ import org.testng.annotations.*;
 
 public class Login extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (app.login().loggedIn()) {
             app.login().logOut();
         }
     }
-    @AfterMethod(enabled = true)
+    @AfterMethod(enabled = true, alwaysRun = true)
     public void postCondition() {
         app.login().clickOkBtn();
     }
@@ -40,7 +40,7 @@ public class Login extends TestBase {
         Assert.assertTrue(app.login().loginSuccess());
 
     }
-    @Test
+    @Test(groups ={"negative"})
         public void loginNegativeEmail() {
             app.login().clickLogin();
             app.login().fillLoginForm("user2900@gmailcom", "As2900d#%");

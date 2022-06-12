@@ -17,7 +17,7 @@ public class CarSearch extends TestBase{
         logger.info("Test finished Success");
     }
 
-    @Test
+    @Test(groups = {"four"})
     public void searchPeriodInFuture(){
         logger.info("rent details:-->"+"Moscow, from 25 Oct 2022 till 28 Nov 2022");
         app.search().fillSearchFormAnyDate("Moscow","10/25/2022","11/28/2022");
@@ -39,7 +39,7 @@ public class CarSearch extends TestBase{
 
     }
 
-    @Test(enabled = true)
+    @Test(enabled = true, groups = {"four"})
     public void fillSearchFormFutureYears(){
         logger.info("rent details:-->"+"Paris, from 25 Nov 2022 till 05 March 2023");
         app.search().fillSearchFormAnyDateLocalDataIf("Paris","11/25/2022","03/05/2023");
@@ -51,7 +51,7 @@ public class CarSearch extends TestBase{
 
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void returnToMainPage2(){
         app.search().returnMainPage2();
 
