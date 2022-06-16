@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 public class HelperCar extends HelperBase {
 
@@ -39,7 +40,7 @@ public class HelperCar extends HelperBase {
 
     }
 
-        public void select(By locator, String option) {
+    public void select(By locator, String option) {
         new Select(wd.findElement(locator)).selectByValue(option);
 //        new Select(wd.findElement(locator)).selectByIndex(1);
 //        new Select(wd.findElement(locator)).selectByVisibleText(" Gas ");
@@ -61,8 +62,9 @@ public class HelperCar extends HelperBase {
         String message = wd.findElement(By.xpath("//*[text()='Car added']")).getText();
         return message.contains("Car added");
     }
+
     public String carAddedEquels() {
-        new WebDriverWait(wd,5).until(ExpectedConditions.visibilityOf
+        new WebDriverWait(wd, 5).until(ExpectedConditions.visibilityOf
                 (wd.findElement(By.cssSelector("div h1.title"))));
         String message = wd.findElement(By.cssSelector("div h1.title")).getText();
         return message;
@@ -74,15 +76,26 @@ public class HelperCar extends HelperBase {
 
     public String wrongDataEntered() {
         String message = wd.findElement(By.cssSelector("div.error")).getText();
-        return  message;
+        return message;
     }
 
     public boolean WrongDataMessageAppears() {
-        if (wd.findElements(By.cssSelector("div.error")).size()<=0){
+        if (wd.findElements(By.cssSelector("div.error")).size() <= 0) {
             return false;
         }
         return true;
     }
-}
 
+    public void smthWentWrong() {
+        if (wd.findElements(By.id("mat-dialog-0")).size() > 0) {
+            click(By.xpath("//button[text()='Close']"));
+            String message = wd.findElement(By.xpath("//h1[text()='Something goes wrong']")).getText();
+            logger.info("!!! Bug found with message-->" + message);
+//        }else
+//            Assert.assertTrue(carAddedTrue());
+//        logger.info("Test finished, car added Success");
+//        clickSearchCars();
+        }
+    }
+}
 

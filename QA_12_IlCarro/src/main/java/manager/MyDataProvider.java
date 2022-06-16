@@ -115,4 +115,23 @@ public class MyDataProvider {
         return list.iterator();
 
     }
+    @DataProvider
+    public Iterator<Object[]> carSearchSingaporeLocations(){
+        List<Object[]> list = new ArrayList<>();
+        list.add(new Object[]{Car.builder().location("Singapore").make("UK").model("Porsh").about("Super car").clasS("Sx").distance("150").doors("3")
+                .engine("2.8").features("Red fast car").fuel("Petrol").gear("SMT").price("80").registrationNum("10-100-333" + i).seats("2").fuelConsumption("12")
+                .wD("FWD").year("2018").build()});
+        list.add(new Object[]{Car.builder().location("Singapore Zoo, Singapore").make("UK").model("Porsh").about("Super car").clasS("Sx").distance("150").doors("3")
+                .engine("2.8").features("Red fast car").fuel("Petrol").gear("SMT").price("80").registrationNum("10-100-333" + i + 1).seats("2").fuelConsumption("12")
+                .wD("FWD").year("2018").build()});
+        list.add(new Object[]{Car.builder().location("Raffles Avenue, Singapore Flyer, Singapore").make("UK").model("Porsh").about("Super car").clasS("Sx").distance("150").doors("3")
+                .engine("2.8").features("Red fast car").fuel("Petrol").gear("SMT").price("80").registrationNum("10-100-333" + i + 2).seats("2").fuelConsumption("12")
+                .wD("FWD").year("2018").build()});
+        list.add(new Object[]{Car.builder().location("Singaperumal Koil, Tamil Nadu, India").make("UK").model("Porsh").about("Super car").clasS("Sx").distance("150").doors("3")
+                .engine("2.8").features("Red fast car").fuel("Petrol").gear("SMT").price("80").registrationNum("10-100-333" + i + 3).seats("2").fuelConsumption("12")
+                .wD("FWD").year("2018").build()});
+
+        return list.iterator();
+
+    }
 }
