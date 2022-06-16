@@ -57,7 +57,7 @@ public class LetTheCarWork extends TestBase {
 
     }
 
-    @Test(enabled = false, dataProvider = "letTheCarWorkWrongData", dataProviderClass = MyDataProvider.class)
+    @Test(dataProvider = "letTheCarWorkWrongData", dataProviderClass = MyDataProvider.class)
     public void carSearchFail(Car car) {
 //        Car car = Car.builder().location("Tokio, Japan").make("Japan").model("Toyota").year("2010").engine("2.6").fuel("Petrol").
 //                gear("MT").wD("FWD").doors("3").seats("5").clasS("SuperClass").fuelConsumption("10").registrationNum("100-20-300").
@@ -80,7 +80,7 @@ public class LetTheCarWork extends TestBase {
 
     }
 
-    @Test(groups = {"problemSingapore"},dataProvider = "carSearchSingaporeLocations",dataProviderClass = MyDataProvider.class)
+    @Test(enabled = false, groups = {"problemSingapore"},dataProvider = "carSearchSingaporeLocations",dataProviderClass = MyDataProvider.class)
     public void carSearchSingaporeOnly(Car car) {
 
         logger.info("Car to be added-->" + car.toString());

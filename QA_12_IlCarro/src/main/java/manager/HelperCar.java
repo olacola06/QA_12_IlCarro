@@ -35,6 +35,7 @@ public class HelperCar extends HelperBase {
         type(By.id("serialNumber"), car.getRegistrationNum());
         type(By.id("price"), car.getPrice());
         type(By.id("distance"), car.getDistance());
+        pause(3000);
         type(By.cssSelector("input.feature-input"), car.getFeatures());
         type(By.id("about"), car.getAbout());
 
@@ -59,6 +60,8 @@ public class HelperCar extends HelperBase {
     }
 
     public boolean carAddedTrue() {
+        new WebDriverWait(wd, 5).until(ExpectedConditions.visibilityOf
+                (wd.findElement(By.cssSelector("div.dialog-container"))));
         String message = wd.findElement(By.xpath("//*[text()='Car added']")).getText();
         return message.contains("Car added");
     }
