@@ -6,6 +6,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class LetTheCarWork extends TestBase {
 
     @BeforeClass(alwaysRun = true)
@@ -80,7 +82,7 @@ public class LetTheCarWork extends TestBase {
 
     }
 
-    @Test(enabled = true, groups = {"problemSingapore"},dataProvider = "carSearchSingaporeLocations",dataProviderClass = MyDataProvider.class)
+    @Test(enabled = false, groups = {"problemSingapore"},dataProvider = "carSearchSingaporeLocations",dataProviderClass = MyDataProvider.class)
     public void carSearchSingaporeOnly(Car car) {
 
         logger.info("Car to be added-->" + car.toString());
@@ -91,11 +93,8 @@ public class LetTheCarWork extends TestBase {
         //app.helperCar().addImage("C:/Users/Olga/GitHub/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg");
         app.helperCar().submitCar();
 
-        app.helperCar().smthWentWrong();
+        app.helperCar().whichElementAppears();
 
-        Assert.assertTrue(app.helperCar().carAddedTrue());
-        logger.info("Test finished, car added Success");
-        app.helperCar().clickSearchCars();
     }
 }
 

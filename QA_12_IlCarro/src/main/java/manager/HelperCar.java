@@ -35,7 +35,6 @@ public class HelperCar extends HelperBase {
         type(By.id("serialNumber"), car.getRegistrationNum());
         type(By.id("price"), car.getPrice());
         type(By.id("distance"), car.getDistance());
-        pause(3000);
         type(By.cssSelector("input.feature-input"), car.getFeatures());
         type(By.id("about"), car.getAbout());
 
@@ -89,17 +88,24 @@ public class HelperCar extends HelperBase {
         return true;
     }
 
-    public void smthWentWrong() {
+    public void whichElementAppears() {
         if (wd.findElements(By.id("mat-dialog-0")).size() > 0) {
             click(By.xpath("//button[text()='Close']"));
             String message = wd.findElement(By.xpath("//h1[text()='Something goes wrong']")).getText();
             logger.info("!!! Bug found with message-->" + message);
             returnMainPage();
-        }else
-            Assert.assertTrue(carAddedTrue());
-//        logger.info("Test finished, car added Success");
-//        clickSearchCars();
+        }else {
+
+            Assert.assertTrue(carAddedTrueSingapore());
+            logger.info("Test finished, car added Success");
+            clickSearchCars();
         }
+
     }
+    private boolean carAddedTrueSingapore() {
+        String message = wd.findElement(By.xpath("//*[text()='Car added']")).getText();
+        return message.contains("Car added");
+    }
+}
 
 
