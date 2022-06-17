@@ -94,11 +94,12 @@ public class HelperCar extends HelperBase {
             click(By.xpath("//button[text()='Close']"));
             String message = wd.findElement(By.xpath("//h1[text()='Something goes wrong']")).getText();
             logger.info("!!! Bug found with message-->" + message);
-//        }else
-//            Assert.assertTrue(carAddedTrue());
+            returnMainPage();
+        }else
+            Assert.assertTrue(carAddedTrue());
 //        logger.info("Test finished, car added Success");
 //        clickSearchCars();
         }
     }
-}
+
 
