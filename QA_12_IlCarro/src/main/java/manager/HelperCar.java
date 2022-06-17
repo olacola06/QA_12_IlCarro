@@ -89,9 +89,10 @@ public class HelperCar extends HelperBase {
     }
 
     public void whichElementAppears() {
-        if (wd.findElements(By.id("mat-dialog-0")).size() > 0) {
-            click(By.xpath("//button[text()='Close']"));
+        pause(2000);
+        if (wd.findElements(By.xpath("//h1[text()='Something goes wrong']")).size() > 0) {
             String message = wd.findElement(By.xpath("//h1[text()='Something goes wrong']")).getText();
+            click(By.xpath("//button[text()='Close']"));
             logger.info("!!! Bug found with message-->" + message);
             returnMainPage();
         }else {

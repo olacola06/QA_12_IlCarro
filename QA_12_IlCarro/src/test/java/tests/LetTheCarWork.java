@@ -82,7 +82,7 @@ public class LetTheCarWork extends TestBase {
 
     }
 
-    @Test(enabled = false, groups = {"problemSingapore"},dataProvider = "carSearchSingaporeLocations",dataProviderClass = MyDataProvider.class)
+    @Test(enabled = true, groups = {"problemSingapore"},dataProvider = "carSearchSingaporeLocations",dataProviderClass = MyDataProvider.class)
     public void carSearchSingaporeOnly(Car car) {
 
         logger.info("Car to be added-->" + car.toString());
