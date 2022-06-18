@@ -39,8 +39,8 @@ public class MyListener extends AbstractWebDriverEventListener {
         logger.info(String.valueOf(throwable.fillInStackTrace()));
 
         int i = (int) (System.currentTimeMillis()) / 1000 % 3600;
-        //String link = "C:/Users/Olga/GitHub/QA_12_IlCarro/QA_12_IlCarro/src/test/screenshots/screenshot" + i + ".png";
-        String link = "C:/Users/Olga/QA_12_IlCarro/QA_12_IlCarro/src/test/screenshots/screenshot"+i+".png";
+        //String link = "C:/Users/Olga/GitHub/QA_12_IlCarro/src/test/screenshots/screenshot" + i + ".png";
+        String link = "C:/Users/Olga/QA_12_IlCarro/src/test/screenshots/screenshot"+i+".png";
 
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try { Files.copy(screenshot, new File(link));

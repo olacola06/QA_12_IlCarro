@@ -9,8 +9,8 @@ public class CarSearch extends TestBase{
 
     @Test
     public void searchPeriodCurrentMonth(){
-        logger.info("rent details:-->"+"Tel Aviv, from 19 June 2022 till 30 June 2022");
-        app.search().fillSearchFormCurrentMonth("Tel Aviv","06/19/2022","06/30/2022");
+        logger.info("rent details:-->"+"Tel Aviv, from 29 June 2022 till 30 June 2022");
+        app.search().fillSearchFormCurrentMonth("Tel Aviv","06/29/2022","06/30/2022");
         app.search().submitYalla();
 
         Assert.assertTrue(app.search().carSearchSuccess());

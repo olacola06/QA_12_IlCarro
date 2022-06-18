@@ -1,0 +1,589 @@
+11:28:15 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+11:28:19 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+11:28:24 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+11:28:24 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Log in ']
+11:28:24 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Log in '] was found
+11:28:24 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#email
+11:28:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#email was found
+11:28:24 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#password
+11:28:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#password was found
+11:28:24 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: form button[type='submit']
+11:28:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: form button[type='submit'] was found
+11:28:24 INFO  tests.TestBase - Starts test---> carSearchSuccess
+11:28:24 INFO  tests.TestBase - Test starts with car details:--->London, Porsh, UK
+11:28:24 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+11:28:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+11:28:24 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+11:28:24 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+11:28:25 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+11:28:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+11:28:26 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+11:28:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+11:28:26 INFO  manager.MyListener - Start search element by locator-->By.id: model
+11:28:26 INFO  manager.MyListener - Element with locator-->By.id: model was found
+11:28:26 INFO  manager.MyListener - Start search element by locator-->By.id: year
+11:28:26 INFO  manager.MyListener - Element with locator-->By.id: year was found
+11:28:26 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+11:28:26 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+11:28:26 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+11:28:26 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+11:28:27 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+11:28:27 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+11:28:27 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+11:28:27 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+11:28:27 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "SMT"]
+11:28:27 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "SMT"] was found
+11:28:27 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+11:28:27 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+11:28:27 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "FWD"]
+11:28:27 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "FWD"] was found
+11:28:27 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+11:28:27 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+11:28:27 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+11:28:27 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+11:28:27 INFO  manager.MyListener - Start search element by locator-->By.id: class
+11:28:27 INFO  manager.MyListener - Element with locator-->By.id: class was found
+11:28:27 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+11:28:27 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+11:28:27 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+11:28:27 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+11:28:28 INFO  manager.MyListener - Start search element by locator-->By.id: price
+11:28:28 INFO  manager.MyListener - Element with locator-->By.id: price was found
+11:28:28 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+11:28:28 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+11:28:28 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+11:28:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+11:28:28 INFO  manager.MyListener - Start search element by locator-->By.id: about
+11:28:28 INFO  manager.MyListener - Element with locator-->By.id: about was found
+11:28:28 INFO  manager.MyListener - Start search element by locator-->By.id: photos
+11:28:28 INFO  manager.MyListener - Element with locator-->By.id: photos was found
+11:28:28 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/let-car-work
+11:28:28 INFO  manager.MyListener - invalid argument: File not found : C:/Users/Olga/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:28 INFO  manager.MyListener - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:/Users/Olga/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:28 INFO  tests.TestBase - Ends test---> carSearchSuccess
+11:28:28 INFO  tests.TestBase - Starts test---> carSearchSuccess
+11:28:28 INFO  tests.TestBase - Test starts with car details:--->Berlin, Porsh, UK
+11:28:28 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+11:28:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+11:28:28 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+11:28:28 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+11:28:29 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+11:28:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+11:28:30 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+11:28:30 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+11:28:30 INFO  manager.MyListener - Start search element by locator-->By.id: model
+11:28:30 INFO  manager.MyListener - Element with locator-->By.id: model was found
+11:28:30 INFO  manager.MyListener - Start search element by locator-->By.id: year
+11:28:30 INFO  manager.MyListener - Element with locator-->By.id: year was found
+11:28:30 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+11:28:30 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+11:28:31 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+11:28:31 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+11:28:31 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+11:28:31 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+11:28:31 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+11:28:31 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+11:28:31 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "SMT"]
+11:28:31 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "SMT"] was found
+11:28:31 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+11:28:31 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+11:28:31 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "FWD"]
+11:28:31 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "FWD"] was found
+11:28:31 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+11:28:31 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+11:28:31 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+11:28:31 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+11:28:31 INFO  manager.MyListener - Start search element by locator-->By.id: class
+11:28:31 INFO  manager.MyListener - Element with locator-->By.id: class was found
+11:28:31 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+11:28:31 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+11:28:31 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+11:28:31 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+11:28:31 INFO  manager.MyListener - Start search element by locator-->By.id: price
+11:28:31 INFO  manager.MyListener - Element with locator-->By.id: price was found
+11:28:32 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+11:28:32 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+11:28:32 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+11:28:32 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+11:28:32 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/let-car-work
+11:28:32 INFO  manager.MyListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:32 INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:32 INFO  tests.TestBase - Ends test---> carSearchSuccess
+11:28:32 INFO  tests.TestBase - Starts test---> carSearchSuccess
+11:28:32 INFO  tests.TestBase - Test starts with car details:--->Paris, Porsh, UK
+11:28:32 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+11:28:32 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+11:28:32 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+11:28:32 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+11:28:33 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+11:28:33 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+11:28:34 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+11:28:34 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+11:28:34 INFO  manager.MyListener - Start search element by locator-->By.id: model
+11:28:34 INFO  manager.MyListener - Element with locator-->By.id: model was found
+11:28:34 INFO  manager.MyListener - Start search element by locator-->By.id: year
+11:28:34 INFO  manager.MyListener - Element with locator-->By.id: year was found
+11:28:34 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+11:28:34 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+11:28:34 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+11:28:34 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+11:28:34 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+11:28:34 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+11:28:34 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+11:28:34 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+11:28:34 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "SMT"]
+11:28:34 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "SMT"] was found
+11:28:34 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+11:28:34 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+11:28:34 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "FWD"]
+11:28:34 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "FWD"] was found
+11:28:34 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+11:28:34 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+11:28:34 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+11:28:34 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+11:28:35 INFO  manager.MyListener - Start search element by locator-->By.id: class
+11:28:35 INFO  manager.MyListener - Element with locator-->By.id: class was found
+11:28:35 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+11:28:35 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+11:28:35 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+11:28:35 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+11:28:35 INFO  manager.MyListener - Start search element by locator-->By.id: price
+11:28:35 INFO  manager.MyListener - Element with locator-->By.id: price was found
+11:28:35 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+11:28:35 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+11:28:35 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+11:28:35 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+11:28:35 INFO  manager.MyListener - Start search element by locator-->By.id: about
+11:28:35 INFO  manager.MyListener - Element with locator-->By.id: about was found
+11:28:35 INFO  manager.MyListener - Start search element by locator-->By.id: photos
+11:28:35 INFO  manager.MyListener - Element with locator-->By.id: photos was found
+11:28:35 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/let-car-work
+11:28:35 INFO  manager.MyListener - invalid argument: File not found : C:/Users/Olga/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:35 INFO  manager.MyListener - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:/Users/Olga/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:36 INFO  tests.TestBase - Ends test---> carSearchSuccess
+11:28:36 INFO  tests.TestBase - Starts test---> carSearchSuccess
+11:28:36 INFO  tests.TestBase - Test starts with car details:--->Madrid, Porsh, UK
+11:28:36 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+11:28:36 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+11:28:36 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+11:28:36 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+11:28:36 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+11:28:36 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+11:28:37 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+11:28:37 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+11:28:38 INFO  manager.MyListener - Start search element by locator-->By.id: model
+11:28:38 INFO  manager.MyListener - Element with locator-->By.id: model was found
+11:28:38 INFO  manager.MyListener - Start search element by locator-->By.id: year
+11:28:38 INFO  manager.MyListener - Element with locator-->By.id: year was found
+11:28:38 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+11:28:38 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+11:28:38 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+11:28:38 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+11:28:38 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+11:28:38 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+11:28:38 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+11:28:38 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+11:28:38 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "SMT"]
+11:28:38 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "SMT"] was found
+11:28:38 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+11:28:38 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+11:28:38 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "FWD"]
+11:28:38 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "FWD"] was found
+11:28:38 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+11:28:38 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+11:28:38 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+11:28:38 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+11:28:38 INFO  manager.MyListener - Start search element by locator-->By.id: class
+11:28:38 INFO  manager.MyListener - Element with locator-->By.id: class was found
+11:28:38 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+11:28:38 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+11:28:39 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+11:28:39 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+11:28:39 INFO  manager.MyListener - Start search element by locator-->By.id: price
+11:28:39 INFO  manager.MyListener - Element with locator-->By.id: price was found
+11:28:39 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+11:28:39 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+11:28:39 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+11:28:39 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+11:28:39 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/let-car-work
+11:28:39 INFO  manager.MyListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:39 INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:39 INFO  tests.TestBase - Ends test---> carSearchSuccess
+11:28:39 INFO  tests.TestBase - Starts test---> carSearchSuccessDP
+11:28:39 INFO  tests.TestBase - Test starts with car details-->Car(location=Tel Aviv, make=Japan, model=Honda, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-132110, price=10, distance=120, features=New resin, about=Used but in good conditions)
+11:28:39 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+11:28:39 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+11:28:39 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+11:28:39 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+11:28:40 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+11:28:40 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+11:28:41 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+11:28:41 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+11:28:41 INFO  manager.MyListener - Start search element by locator-->By.id: model
+11:28:41 INFO  manager.MyListener - Element with locator-->By.id: model was found
+11:28:41 INFO  manager.MyListener - Start search element by locator-->By.id: year
+11:28:41 INFO  manager.MyListener - Element with locator-->By.id: year was found
+11:28:41 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+11:28:41 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+11:28:41 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+11:28:41 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+11:28:41 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+11:28:41 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+11:28:41 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+11:28:41 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+11:28:41 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "MT"]
+11:28:41 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "MT"] was found
+11:28:42 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+11:28:42 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+11:28:42 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "AWD"]
+11:28:42 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "AWD"] was found
+11:28:42 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+11:28:42 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+11:28:42 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+11:28:42 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+11:28:42 INFO  manager.MyListener - Start search element by locator-->By.id: class
+11:28:42 INFO  manager.MyListener - Element with locator-->By.id: class was found
+11:28:42 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+11:28:42 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+11:28:42 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+11:28:42 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+11:28:42 INFO  manager.MyListener - Start search element by locator-->By.id: price
+11:28:42 INFO  manager.MyListener - Element with locator-->By.id: price was found
+11:28:42 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+11:28:42 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+11:28:42 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+11:28:42 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+11:28:43 INFO  manager.MyListener - Start search element by locator-->By.id: about
+11:28:43 INFO  manager.MyListener - Element with locator-->By.id: about was found
+11:28:43 INFO  manager.MyListener - Start search element by locator-->By.id: photos
+11:28:43 INFO  manager.MyListener - Element with locator-->By.id: photos was found
+11:28:43 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/let-car-work
+11:28:43 INFO  manager.MyListener - invalid argument: File not found : C:/Users/Olga/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:43 INFO  manager.MyListener - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:/Users/Olga/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:43 INFO  tests.TestBase - Ends test---> carSearchSuccessDP
+11:28:43 INFO  tests.TestBase - Starts test---> carSearchSuccessDP
+11:28:43 INFO  tests.TestBase - Test starts with car details-->Car(location=Moscow, make=Japan, model=Toyota, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-132114, price=15, distance=120, features=New resin, about=Used but in good conditions)
+11:28:43 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+11:28:43 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+11:28:43 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+11:28:43 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+11:28:44 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+11:28:44 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+11:28:45 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+11:28:45 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+11:28:45 INFO  manager.MyListener - Start search element by locator-->By.id: model
+11:28:45 INFO  manager.MyListener - Element with locator-->By.id: model was found
+11:28:45 INFO  manager.MyListener - Start search element by locator-->By.id: year
+11:28:45 INFO  manager.MyListener - Element with locator-->By.id: year was found
+11:28:45 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+11:28:45 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+11:28:45 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+11:28:45 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+11:28:45 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+11:28:45 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+11:28:45 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+11:28:45 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+11:28:45 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "MT"]
+11:28:45 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "MT"] was found
+11:28:45 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+11:28:45 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+11:28:45 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "AWD"]
+11:28:45 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "AWD"] was found
+11:28:45 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+11:28:45 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+11:28:45 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+11:28:45 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+11:28:45 INFO  manager.MyListener - Start search element by locator-->By.id: class
+11:28:45 INFO  manager.MyListener - Element with locator-->By.id: class was found
+11:28:46 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+11:28:46 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+11:28:46 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+11:28:46 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+11:28:46 INFO  manager.MyListener - Start search element by locator-->By.id: price
+11:28:46 INFO  manager.MyListener - Element with locator-->By.id: price was found
+11:28:46 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+11:28:46 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+11:28:46 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+11:28:46 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+11:28:46 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/let-car-work
+11:28:46 INFO  manager.MyListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:46 INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:46 INFO  tests.TestBase - Ends test---> carSearchSuccessDP
+11:28:46 INFO  tests.TestBase - Starts test---> carSearchSuccessDP
+11:28:46 INFO  tests.TestBase - Test starts with car details-->Car(location=Tokio, make=Japan, model=BMW, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-132117, price=20, distance=120, features=New resin, about=Used but in good conditions)
+11:28:46 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+11:28:46 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+11:28:46 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+11:28:46 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+11:28:47 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+11:28:47 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+11:28:48 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+11:28:48 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+11:28:48 INFO  manager.MyListener - Start search element by locator-->By.id: model
+11:28:48 INFO  manager.MyListener - Element with locator-->By.id: model was found
+11:28:48 INFO  manager.MyListener - Start search element by locator-->By.id: year
+11:28:49 INFO  manager.MyListener - Element with locator-->By.id: year was found
+11:28:49 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+11:28:49 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+11:28:49 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+11:28:49 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+11:28:49 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+11:28:49 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+11:28:49 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+11:28:49 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+11:28:49 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "MT"]
+11:28:49 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "MT"] was found
+11:28:49 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+11:28:49 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+11:28:49 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "AWD"]
+11:28:49 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "AWD"] was found
+11:28:49 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+11:28:49 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+11:28:49 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+11:28:49 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+11:28:49 INFO  manager.MyListener - Start search element by locator-->By.id: class
+11:28:49 INFO  manager.MyListener - Element with locator-->By.id: class was found
+11:28:49 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+11:28:49 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+11:28:49 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+11:28:49 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+11:28:49 INFO  manager.MyListener - Start search element by locator-->By.id: price
+11:28:49 INFO  manager.MyListener - Element with locator-->By.id: price was found
+11:28:50 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+11:28:50 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+11:28:50 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+11:28:50 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+11:28:50 INFO  manager.MyListener - Start search element by locator-->By.id: about
+11:28:50 INFO  manager.MyListener - Element with locator-->By.id: about was found
+11:28:50 INFO  manager.MyListener - Start search element by locator-->By.id: photos
+11:28:50 INFO  manager.MyListener - Element with locator-->By.id: photos was found
+11:28:50 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/let-car-work
+11:28:50 INFO  manager.MyListener - invalid argument: File not found : C:/Users/Olga/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:50 INFO  manager.MyListener - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:/Users/Olga/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:50 INFO  tests.TestBase - Ends test---> carSearchSuccessDP
+11:28:50 INFO  tests.TestBase - Starts test---> carSearchSuccessDP
+11:28:50 INFO  tests.TestBase - Test starts with car details-->Car(location=Haifa, make=Japan, model=Deep, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-132121, price=25, distance=120, features=New resin, about=Used but in good conditions)
+11:28:50 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+11:28:50 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+11:28:50 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+11:28:50 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+11:28:51 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+11:28:51 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+11:28:52 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+11:28:52 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+11:28:52 INFO  manager.MyListener - Start search element by locator-->By.id: model
+11:28:52 INFO  manager.MyListener - Element with locator-->By.id: model was found
+11:28:52 INFO  manager.MyListener - Start search element by locator-->By.id: year
+11:28:52 INFO  manager.MyListener - Element with locator-->By.id: year was found
+11:28:52 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+11:28:52 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+11:28:52 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+11:28:52 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+11:28:52 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+11:28:52 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+11:28:52 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+11:28:52 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+11:28:52 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "MT"]
+11:28:52 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "MT"] was found
+11:28:52 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+11:28:52 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+11:28:52 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "AWD"]
+11:28:53 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "AWD"] was found
+11:28:53 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+11:28:53 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+11:28:53 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+11:28:53 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+11:28:53 INFO  manager.MyListener - Start search element by locator-->By.id: class
+11:28:53 INFO  manager.MyListener - Element with locator-->By.id: class was found
+11:28:53 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+11:28:53 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+11:28:53 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+11:28:53 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+11:28:53 INFO  manager.MyListener - Start search element by locator-->By.id: price
+11:28:53 INFO  manager.MyListener - Element with locator-->By.id: price was found
+11:28:53 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+11:28:53 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+11:28:53 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+11:28:53 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+11:28:53 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/let-car-work
+11:28:53 INFO  manager.MyListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:53 INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:54 INFO  tests.TestBase - Ends test---> carSearchSuccessDP
+11:28:54 INFO  tests.TestBase - Starts test---> carSearchSuccessDP
+11:28:54 INFO  tests.TestBase - Test starts with car details-->Car(location=London, make=Japan, model=lada, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-132125, price=30, distance=120, features=New resin, about=Used but in good conditions)
+11:28:54 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+11:28:54 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+11:28:54 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+11:28:54 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+11:28:54 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+11:28:54 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+11:28:55 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+11:28:55 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found
+11:28:55 INFO  manager.MyListener - Start search element by locator-->By.id: model
+11:28:55 INFO  manager.MyListener - Element with locator-->By.id: model was found
+11:28:56 INFO  manager.MyListener - Start search element by locator-->By.id: year
+11:28:56 INFO  manager.MyListener - Element with locator-->By.id: year was found
+11:28:56 INFO  manager.MyListener - Start search element by locator-->By.id: engine
+11:28:56 INFO  manager.MyListener - Element with locator-->By.id: engine was found
+11:28:56 INFO  manager.MyListener - Start search element by locator-->By.id: fuel
+11:28:56 INFO  manager.MyListener - Element with locator-->By.id: fuel was found
+11:28:56 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "Petrol"]
+11:28:56 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "Petrol"] was found
+11:28:56 INFO  manager.MyListener - Start search element by locator-->By.id: gear
+11:28:56 INFO  manager.MyListener - Element with locator-->By.id: gear was found
+11:28:56 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "MT"]
+11:28:56 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "MT"] was found
+11:28:56 INFO  manager.MyListener - Start search element by locator-->By.id: wheelsDrive
+11:28:56 INFO  manager.MyListener - Element with locator-->By.id: wheelsDrive was found
+11:28:56 INFO  manager.MyListener - Start search element by locator-->By.xpath: .//option[@value = "AWD"]
+11:28:56 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "AWD"] was found
+11:28:56 INFO  manager.MyListener - Start search element by locator-->By.id: doors
+11:28:56 INFO  manager.MyListener - Element with locator-->By.id: doors was found
+11:28:56 INFO  manager.MyListener - Start search element by locator-->By.id: seats
+11:28:56 INFO  manager.MyListener - Element with locator-->By.id: seats was found
+11:28:56 INFO  manager.MyListener - Start search element by locator-->By.id: class
+11:28:56 INFO  manager.MyListener - Element with locator-->By.id: class was found
+11:28:56 INFO  manager.MyListener - Start search element by locator-->By.id: fuelConsumption
+11:28:56 INFO  manager.MyListener - Element with locator-->By.id: fuelConsumption was found
+11:28:56 INFO  manager.MyListener - Start search element by locator-->By.id: serialNumber
+11:28:56 INFO  manager.MyListener - Element with locator-->By.id: serialNumber was found
+11:28:57 INFO  manager.MyListener - Start search element by locator-->By.id: price
+11:28:57 INFO  manager.MyListener - Element with locator-->By.id: price was found
+11:28:57 INFO  manager.MyListener - Start search element by locator-->By.id: distance
+11:28:57 INFO  manager.MyListener - Element with locator-->By.id: distance was found
+11:28:57 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input.feature-input
+11:28:57 INFO  manager.MyListener - Element with locator-->By.cssSelector: input.feature-input was found
+11:28:57 INFO  manager.MyListener - Start search element by locator-->By.id: about
+11:28:57 INFO  manager.MyListener - Element with locator-->By.id: about was found
+11:28:57 INFO  manager.MyListener - Start search element by locator-->By.id: photos
+11:28:57 INFO  manager.MyListener - Element with locator-->By.id: photos was found
+11:28:57 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/let-car-work
+11:28:57 INFO  manager.MyListener - invalid argument: File not found : C:/Users/Olga/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:57 INFO  manager.MyListener - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:/Users/Olga/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac2d99f87e9a3704cdb7d1ce8dbef648
+11:28:57 INFO  tests.TestBase - Ends test---> carSearchSuccessDP
+11:28:57 INFO  tests.TestBase - Starts test---> carSearchSuccessDP
+11:28:57 INFO  tests.TestBase - Test starts with car details-->Car(location=New York, make=Japan, model=Honda, year=2001, engine=1,3, fuel=Petrol, gear=MT, wD=AWD, doors=4, seats=5, clasS=M, fuelConsumption=9,5, registrationNum=10-15-132128, price=35, distance=120, features=New resin, about=Used but in good conditions)
+11:28:57 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: a[href='/let-car-work']
+11:28:57 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/let-car-work'] was found
+11:28:57 INFO  manager.MyListener - Start search element by locator-->By.id: pickUpPlace
+11:28:57 INFO  manager.MyListener - Element with locator-->By.id: pickUpPlace was found
+11:28:58 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div.pac-item
+11:28:58 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.pac-item was found
+11:28:59 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: input[id='make']
+11:28:59 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='make'] was found

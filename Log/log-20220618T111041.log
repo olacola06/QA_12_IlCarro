@@ -1,0 +1,54 @@
+11:10:41 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+11:10:45 INFO  tests.TestBase - Starts test---> loginPositive
+11:10:45 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+11:10:50 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+11:10:50 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Log in ']
+11:10:50 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Log in '] was found
+11:10:50 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#email
+11:10:50 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#email was found
+11:10:50 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#password
+11:10:50 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#password was found
+11:10:50 INFO  tests.TestBase - Login with email:---> user2900@gmail.com and password:---> As2900d#%
+11:10:50 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: form button[type='submit']
+11:10:50 INFO  manager.MyListener - Element with locator-->By.cssSelector: form button[type='submit'] was found
+11:10:51 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: h2.message
+11:10:56 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/login?url=%2Fsearch
+11:10:56 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"css selector","selector":"h2.message"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 51d23dc8ddf6cc3943c91de56499f27c
+*** Element info: {Using=css selector, value=h2.message}
+11:10:56 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"h2.message"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 51d23dc8ddf6cc3943c91de56499f27c
+*** Element info: {Using=css selector, value=h2.message}
+11:10:57 INFO  manager.MyListener - Start search element by locator-->By.xpath: //button[text()='Ok']
+11:11:02 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/login?url=%2Fsearch
+11:11:02 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Ok']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 51d23dc8ddf6cc3943c91de56499f27c
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
+11:11:02 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Ok']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 51d23dc8ddf6cc3943c91de56499f27c
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
+11:11:02 INFO  tests.TestBase - Ends test---> loginPositive

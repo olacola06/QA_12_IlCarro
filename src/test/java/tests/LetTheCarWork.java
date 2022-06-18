@@ -29,8 +29,8 @@ public class LetTheCarWork extends TestBase {
 
         app.helperCar().clickLetTheCarWork();
         app.helperCar().fillForm(car);
-        app.helperCar().addImage("C:/Users/Olga/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg");
-        //app.helperCar().addImage("C:/Users/Olga/GitHub/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg");
+        app.helperCar().addImage("C:/Users/Olga/QA_12_IlCarro/auto2.jpeg");
+        //app.helperCar().addImage("C:/Users/Olga/GitHub/QA_12_IlCarro/auto2.jpeg");
         app.helperCar().submitCar();
 
         Assert.assertTrue(app.helperCar().carAddedTrue());
@@ -49,8 +49,8 @@ public class LetTheCarWork extends TestBase {
         app.helperCar().clickLetTheCarWork();
         app.helperCar().fillForm(car);
 
-        //app.helperCar().addImage("C:/Users/Olga/GitHub/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg");
-        app.helperCar().addImage("C:/Users/Olga/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg");
+        //app.helperCar().addImage("C:/Users/Olga/GitHub/QA_12_IlCarro/auto2.jpeg");
+        app.helperCar().addImage("C:/Users/Olga/QA_12_IlCarro/auto2.jpeg");
         app.helperCar().submitCar();
 
         Assert.assertTrue(app.helperCar().carAddedTrue());
@@ -73,8 +73,8 @@ public class LetTheCarWork extends TestBase {
 
         app.helperCar().clickLetTheCarWork();
         app.helperCar().fillForm(car);
-        app.helperCar().addImage("C:/Users/Olga/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg");
-        //app.helperCar().addImage("C:/Users/Olga/GitHub/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg");
+        app.helperCar().addImage("C:/Users/Olga/QA_12_IlCarro/auto2.jpeg");
+        //app.helperCar().addImage("C:/Users/Olga/GitHub/QA_12_IlCarro/auto2.jpeg");
         logger.info("Car was not added, entered wrong data-->" + app.helperCar().wrongDataEntered());
 
         Assert.assertTrue(app.helperCar().WrongDataMessageAppears());
@@ -89,8 +89,8 @@ public class LetTheCarWork extends TestBase {
 
         app.helperCar().clickLetTheCarWork();
         app.helperCar().fillForm(car);
-        app.helperCar().addImage("C:/Users/Olga/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg");
-        //app.helperCar().addImage("C:/Users/Olga/GitHub/QA_12_IlCarro/QA_12_IlCarro/auto2.jpeg");
+        app.helperCar().addImage("C:/Users/Olga/QA_12_IlCarro/auto2.jpeg");
+        //app.helperCar().addImage("C:/Users/Olga/GitHub/QA_12_IlCarro/auto2.jpeg");
         app.helperCar().submitCar();
 
         app.helperCar().whichElementAppears();
