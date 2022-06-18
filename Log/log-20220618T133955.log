@@ -1,0 +1,262 @@
+13:39:58 INFO  manager.ApplicationManager - All tests starts in 'FireFox' browser
+13:40:00 INFO  tests.TestBase - Starts test---> registrationNegativeMail
+13:40:00 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+13:40:05 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+13:40:05 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Sign up ']
+13:40:05 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Sign up '] was found
+13:40:05 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@id='name']
+13:40:05 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@id='name'] was found
+13:40:05 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@id='lastName']
+13:40:05 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@id='lastName'] was found
+13:40:06 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#email
+13:40:06 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#email was found
+13:40:06 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#password
+13:40:06 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#password was found
+13:40:06 INFO  tests.TestBase - Registration with Email = dumgmail.com, and password = Zz12345$
+13:40:06 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input[type='checkbox']
+13:40:06 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input[type='checkbox'] was found
+13:40:06 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@class='checkbox-label terms-label']
+13:40:06 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@class='checkbox-label terms-label'] was found
+13:40:07 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: form button[type='submit']
+13:40:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: form button[type='submit'] was found
+13:40:07 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Wrong email format']
+13:40:07 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Wrong email format'] was found
+13:40:07 INFO  tests.TestBase - Ends test---> registrationNegativeMail
+13:40:07 INFO  tests.TestBase - Starts test---> registrationNegativeMail
+13:40:07 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+13:40:13 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+13:40:13 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Sign up ']
+13:40:13 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Sign up '] was found
+13:40:13 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@id='name']
+13:40:13 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@id='name'] was found
+13:40:14 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@id='lastName']
+13:40:14 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@id='lastName'] was found
+13:40:15 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#email
+13:40:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#email was found
+13:40:15 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#password
+13:40:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#password was found
+13:40:16 INFO  tests.TestBase - Registration with Email = Dum@gmail.com, and password = Zz12345$
+13:40:16 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input[type='checkbox']
+13:40:16 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input[type='checkbox'] was found
+13:40:16 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: form button[type='submit']
+13:40:16 INFO  manager.MyListener - Element with locator-->By.cssSelector: form button[type='submit'] was found
+13:40:17 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Wrong email format']
+13:40:17 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Wrong email format'] was found
+13:40:17 INFO  tests.TestBase - Ends test---> registrationNegativeMail
+13:40:17 INFO  tests.TestBase - Starts test---> registrationNegativeMail
+13:40:17 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+13:40:22 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+13:40:22 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Sign up ']
+13:40:22 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Sign up '] was found
+13:40:22 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@id='name']
+13:40:22 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@id='name'] was found
+13:40:23 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@id='lastName']
+13:40:23 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@id='lastName'] was found
+13:40:24 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#email
+13:40:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#email was found
+13:40:24 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#password
+13:40:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#password was found
+13:40:25 INFO  tests.TestBase - Registration with Email = dum@gmailcom, and password = Zz12345$
+13:40:25 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input[type='checkbox']
+13:40:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input[type='checkbox'] was found
+13:40:25 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: form button[type='submit']
+13:40:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: form button[type='submit'] was found
+13:40:26 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Wrong email format']
+13:40:26 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Wrong email format'] was found
+13:40:26 INFO  tests.TestBase - Ends test---> registrationNegativeMail
+13:40:26 INFO  tests.TestBase - Starts test---> registrationNegativeMail
+13:40:26 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+13:40:31 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+13:40:31 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Sign up ']
+13:40:31 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Sign up '] was found
+13:40:32 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@id='name']
+13:40:32 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@id='name'] was found
+13:40:32 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@id='lastName']
+13:40:32 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@id='lastName'] was found
+13:40:33 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#email
+13:40:33 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#email was found
+13:40:33 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#password
+13:40:33 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#password was found
+13:40:34 INFO  tests.TestBase - Registration with Email = dum@g., and password = Zz12345$
+13:40:34 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input[type='checkbox']
+13:40:34 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input[type='checkbox'] was found
+13:40:34 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: form button[type='submit']
+13:40:34 INFO  manager.MyListener - Element with locator-->By.cssSelector: form button[type='submit'] was found
+13:40:35 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Wrong email format']
+13:40:35 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Wrong email format'] was found
+13:40:35 INFO  tests.TestBase - Ends test---> registrationNegativeMail
+13:40:35 INFO  tests.TestBase - Starts test---> registrationNegativeMail
+13:40:35 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+13:40:40 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+13:40:40 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Sign up ']
+13:40:40 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Sign up '] was found
+13:40:41 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@id='name']
+13:40:41 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@id='name'] was found
+13:40:41 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@id='lastName']
+13:40:41 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@id='lastName'] was found
+13:40:42 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#email
+13:40:42 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#email was found
+13:40:42 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#password
+13:40:42 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#password was found
+13:40:43 INFO  tests.TestBase - Registration with Email =  @l.com, and password = Zz12345$
+13:40:43 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input[type='checkbox']
+13:40:43 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input[type='checkbox'] was found
+13:40:43 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: form button[type='submit']
+13:40:43 INFO  manager.MyListener - Element with locator-->By.cssSelector: form button[type='submit'] was found
+13:40:44 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()='Wrong email format']
+13:40:44 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Wrong email format'] was found
+13:40:44 INFO  tests.TestBase - Ends test---> registrationNegativeMail
+13:40:44 INFO  tests.TestBase - Starts test---> registrationPositive
+13:40:44 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+13:40:49 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+13:40:49 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Sign up ']
+13:40:49 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Sign up '] was found
+13:40:50 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@id='name']
+13:40:50 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@id='name'] was found
+13:40:50 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@id='lastName']
+13:40:50 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@id='lastName'] was found
+13:40:51 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#email
+13:40:51 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#email was found
+13:40:52 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#password
+13:40:52 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#password was found
+13:40:52 INFO  tests.TestBase - Registration with details = Tom, Brown, user2444@gmail.com, and password = Asd2444d#%
+13:40:52 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input[type='checkbox']
+13:40:52 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input[type='checkbox'] was found
+13:40:52 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: form button[type='submit']
+13:40:52 INFO  manager.MyListener - Element with locator-->By.cssSelector: form button[type='submit'] was found
+13:40:53 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@class='cdk-overlay-pane']
+13:40:53 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@class='cdk-overlay-pane'] was found
+13:40:53 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@class='cdk-overlay-pane']
+13:40:53 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@class='cdk-overlay-pane'] was found
+13:40:53 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@class='cdk-overlay-pane']
+13:40:53 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@class='cdk-overlay-pane'] was found
+13:40:53 INFO  tests.TestBase - Ends test---> registrationPositive
+13:40:53 INFO  tests.TestBase - Starts test---> registrationPositive
+13:40:53 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+13:40:58 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+13:40:58 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Sign up ']
+13:40:58 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Sign up '] was found
+13:40:58 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/registration?url=%2Fsearch
+13:40:58 INFO  manager.MyListener - Element <a class="navigation-link" href="/registration?url=%2Fsearch"> is not clickable at point (1194,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13012, moz:profile: C:\Users\ompre\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 39eb088a-9f94-474b-86d2-cb9d959d4795
+13:40:58 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link" href="/registration?url=%2Fsearch"> is not clickable at point (1194,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13012, moz:profile: C:\Users\ompre\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 39eb088a-9f94-474b-86d2-cb9d959d4795
+13:40:58 INFO  tests.TestBase - Ends test---> registrationPositive
+13:40:58 INFO  tests.TestBase - Starts test---> registrationPositive
+13:40:58 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+13:41:03 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+13:41:03 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Sign up ']
+13:41:03 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Sign up '] was found
+13:41:03 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/registration?url=%2Fsearch
+13:41:03 INFO  manager.MyListener - Element <a class="navigation-link" href="/registration?url=%2Fsearch"> is not clickable at point (1194,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13012, moz:profile: C:\Users\ompre\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 39eb088a-9f94-474b-86d2-cb9d959d4795
+13:41:03 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link" href="/registration?url=%2Fsearch"> is not clickable at point (1194,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13012, moz:profile: C:\Users\ompre\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 39eb088a-9f94-474b-86d2-cb9d959d4795
+13:41:04 INFO  tests.TestBase - Ends test---> registrationPositive
+13:41:04 INFO  tests.TestBase - Starts test---> registrationPositive
+13:41:04 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+13:41:09 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+13:41:09 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Sign up ']
+13:41:09 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Sign up '] was found
+13:41:09 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/registration?url=%2Fsearch
+13:41:09 INFO  manager.MyListener - Element <a class="navigation-link" href="/registration?url=%2Fsearch"> is not clickable at point (1194,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13012, moz:profile: C:\Users\ompre\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 39eb088a-9f94-474b-86d2-cb9d959d4795
+13:41:09 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link" href="/registration?url=%2Fsearch"> is not clickable at point (1194,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13012, moz:profile: C:\Users\ompre\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 39eb088a-9f94-474b-86d2-cb9d959d4795
+13:41:09 INFO  tests.TestBase - Ends test---> registrationPositive
+13:41:09 INFO  tests.TestBase - Starts test---> registrationPositive
+13:41:09 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+13:41:14 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+13:41:14 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Sign up ']
+13:41:14 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Sign up '] was found
+13:41:14 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/registration?url=%2Fsearch
+13:41:14 INFO  manager.MyListener - Element <a class="navigation-link" href="/registration?url=%2Fsearch"> is not clickable at point (1194,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13012, moz:profile: C:\Users\ompre\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 39eb088a-9f94-474b-86d2-cb9d959d4795
+13:41:14 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link" href="/registration?url=%2Fsearch"> is not clickable at point (1194,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13012, moz:profile: C:\Users\ompre\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 39eb088a-9f94-474b-86d2-cb9d959d4795
+13:41:14 INFO  tests.TestBase - Ends test---> registrationPositive
+13:41:14 INFO  tests.TestBase - Starts test---> fillSearchFormFutureYears
+13:41:14 INFO  tests.TestBase - rent details:-->Paris, from 25 Nov 2022 till 05 March 2023
+13:41:14 INFO  manager.MyListener - Start search element by locator-->By.id: city
+13:41:19 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/registration?url=%2Fsearch
+13:41:19 INFO  manager.MyListener - Unable to locate element: #city
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13012, moz:profile: C:\Users\ompre\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 39eb088a-9f94-474b-86d2-cb9d959d4795
+*** Element info: {Using=id, value=city}
+13:41:19 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: Unable to locate element: #city
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13012, moz:profile: C:\Users\ompre\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 39eb088a-9f94-474b-86d2-cb9d959d4795
+*** Element info: {Using=id, value=city}
+13:41:20 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@alt='logo']
+13:41:20 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@alt='logo'] was found
+13:41:20 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/registration?url=%2Fsearch
+13:41:20 INFO  manager.MyListener - Element <img src="../../../assets/images/navigator/logo.svg"> is not clickable at point (245,32) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13012, moz:profile: C:\Users\ompre\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 39eb088a-9f94-474b-86d2-cb9d959d4795
+13:41:20 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: Element <img src="../../../assets/images/navigator/logo.svg"> is not clickable at point (245,32) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13012, moz:profile: C:\Users\ompre\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 39eb088a-9f94-474b-86d2-cb9d959d4795
+13:41:20 INFO  tests.TestBase - Ends test---> fillSearchFormFutureYears
+13:41:20 INFO  tests.TestBase - Starts test---> searchPeriodInFuture
+13:41:20 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@alt='logo']
+13:41:20 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@alt='logo'] was found
+13:41:20 INFO  manager.MyListener - Something went wrong: https://ilcarro-1578153671498.web.app/registration?url=%2Fsearch
+13:41:20 INFO  manager.MyListener - Element <img src="../../../assets/images/navigator/logo.svg"> is not clickable at point (245,32) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13012, moz:profile: C:\Users\ompre\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 39eb088a-9f94-474b-86d2-cb9d959d4795
+13:41:20 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: Element <img src="../../../assets/images/navigator/logo.svg"> is not clickable at point (245,32) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13012, moz:profile: C:\Users\ompre\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 39eb088a-9f94-474b-86d2-cb9d959d4795
+13:41:20 INFO  tests.TestBase - Ends test---> searchPeriodInFuture

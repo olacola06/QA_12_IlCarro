@@ -1,0 +1,58 @@
+14:50:30 INFO  manager.ApplicationManager - All tests starts in 'FireFox' browser
+14:50:32 INFO  tests.TestBase - Starts test---> loginNegativeEmail
+14:50:32 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+14:50:37 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+14:50:37 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Log in ']
+14:50:37 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Log in '] was found
+14:50:37 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#email
+14:50:37 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#email was found
+14:50:37 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#password
+14:50:37 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#password was found
+14:50:37 INFO  tests.TestBase - Login with email:---> user2900@gmailcom and password:---> As2900d#%
+14:50:37 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: form button[type='submit']
+14:50:37 INFO  manager.MyListener - Element with locator-->By.cssSelector: form button[type='submit'] was found
+14:50:41 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@class='dialog-container']
+14:50:41 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@class='dialog-container'] was found
+14:50:41 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@class='dialog-container']
+14:50:41 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@class='dialog-container'] was found
+14:50:41 INFO  manager.MyListener - Start search element by locator-->By.xpath: //button[text()='Ok']
+14:50:41 INFO  manager.MyListener - Element with locator-->By.xpath: //button[text()='Ok'] was found
+14:50:41 INFO  tests.TestBase - Ends test---> loginNegativeEmail
+14:50:41 INFO  tests.TestBase - Starts test---> registrationNegativeExist
+14:50:41 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+14:50:46 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+14:50:46 INFO  tests.TestBase - Registration with email = user2900@gmail.com and password = Asd3027d#%
+14:50:46 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Sign up ']
+14:50:46 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Sign up '] was found
+14:50:46 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@id='name']
+14:50:46 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@id='name'] was found
+14:50:47 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@id='lastName']
+14:50:47 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@id='lastName'] was found
+14:50:47 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#email
+14:50:47 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#email was found
+14:50:47 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#password
+14:50:47 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#password was found
+14:50:47 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input[type='checkbox']
+14:50:47 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input[type='checkbox'] was found
+14:50:47 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@class='checkbox-label terms-label']
+14:50:47 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@class='checkbox-label terms-label'] was found
+14:50:48 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: form button[type='submit']
+14:50:48 INFO  manager.MyListener - Element with locator-->By.cssSelector: form button[type='submit'] was found
+14:50:48 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@class='dialog-container']
+14:50:49 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@class='dialog-container'] was found
+14:50:49 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@class='dialog-container']
+14:50:49 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@class='dialog-container'] was found
+14:50:49 INFO  manager.MyListener - Start search element by locator-->By.xpath: //button[text()='Ok']
+14:50:49 INFO  manager.MyListener - Element with locator-->By.xpath: //button[text()='Ok'] was found
+14:50:49 INFO  tests.TestBase - Ends test---> registrationNegativeExist
+14:50:49 INFO  tests.TestBase - Starts test---> registrationNegativeMail
+14:50:49 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+14:50:54 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+14:50:54 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Sign up ']
+14:50:54 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Sign up '] was found
+14:50:55 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@id='name']
+14:50:55 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@id='name'] was found
+14:50:55 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@id='lastName']
+14:50:55 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@id='lastName'] was found
+14:50:56 INFO  manager.MyListener - Start search element by locator-->By.cssSelector: div input#email
+14:50:56 INFO  manager.MyListener - Element with locator-->By.cssSelector: div input#email was found

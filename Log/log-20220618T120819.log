@@ -1,0 +1,41 @@
+12:08:19 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+12:08:22 INFO  tests.TestBase - Starts test---> registrationNegativeMail
+12:08:22 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+12:08:26 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Logout '] was found
+12:08:26 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Sign up ']
+12:08:26 INFO  tests.TestBase - Ends test---> registrationNegativeMail
+12:08:26 INFO  tests.TestBase - Starts test---> registrationNegativeMail
+12:08:26 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+12:08:26 INFO  tests.TestBase - Ends test---> registrationNegativeMail
+12:08:26 INFO  tests.TestBase - Starts test---> registrationNegativeMail
+12:08:26 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+12:08:26 INFO  tests.TestBase - Ends test---> registrationNegativeMail
+12:08:26 INFO  tests.TestBase - Starts test---> registrationNegativeMail
+12:08:26 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+12:08:26 INFO  tests.TestBase - Ends test---> registrationNegativeMail
+12:08:26 INFO  tests.TestBase - Starts test---> registrationNegativeMail
+12:08:26 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+12:08:26 INFO  tests.TestBase - Ends test---> registrationNegativeMail
+12:08:26 INFO  tests.TestBase - Starts test---> registrationPositive
+12:08:26 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+12:08:26 INFO  tests.TestBase - Ends test---> registrationPositive
+12:08:26 INFO  tests.TestBase - Starts test---> registrationPositive
+12:08:26 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+12:08:26 INFO  tests.TestBase - Ends test---> registrationPositive
+12:08:26 INFO  tests.TestBase - Starts test---> registrationPositive
+12:08:26 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+12:08:26 INFO  tests.TestBase - Ends test---> registrationPositive
+12:08:26 INFO  tests.TestBase - Starts test---> registrationPositive
+12:08:26 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+12:08:26 INFO  tests.TestBase - Ends test---> registrationPositive
+12:08:26 INFO  tests.TestBase - Starts test---> registrationPositive
+12:08:26 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[text()=' Logout ']
+12:08:26 INFO  tests.TestBase - Ends test---> registrationPositive
+12:08:26 INFO  tests.TestBase - Starts test---> fillSearchFormFutureYears
+12:08:26 INFO  tests.TestBase - rent details:-->Paris, from 25 Nov 2022 till 05 March 2023
+12:08:26 INFO  manager.MyListener - Start search element by locator-->By.id: city
+12:08:26 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@alt='logo']
+12:08:26 INFO  tests.TestBase - Ends test---> fillSearchFormFutureYears
+12:08:26 INFO  tests.TestBase - Starts test---> searchPeriodInFuture
+12:08:26 INFO  manager.MyListener - Start search element by locator-->By.xpath: //*[@alt='logo']
+12:08:26 INFO  tests.TestBase - Ends test---> searchPeriodInFuture
